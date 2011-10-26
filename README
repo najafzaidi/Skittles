@@ -7,3 +7,14 @@ Dir structure
           README    
           skittles  (workspace for eclipse)
           Docs      (Docs contains analysis, report, presentation etc] 
+
+
+# Global variables
+	int round;
+	ArrayList<Integer> holdings;
+
+
+# Functions:
+	int score = evaluateOffer(Offer offer) # can take dummy offer [Chris]
+	ArrayList<Integer> choice = chooseSnack()  # Afreen
+	ArrayList<Integer> offer = makeOffer()  # Najaf
