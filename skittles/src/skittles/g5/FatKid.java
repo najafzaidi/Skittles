@@ -13,13 +13,6 @@ public class FatKid extends Player
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
-	
-//	public DumpPlayer( int[] aintInHand )
-//	{
-//		this.aintInHand = aintInHand;
-//		intColorNum = aintInHand.length;
-//		dblHappiness = 0;
-//	}
 
 	@Override
 	public void eatAndOffer(int[] aintTempEat, Offer offTemp) 
@@ -171,4 +164,12 @@ public class FatKid extends Player
 		return intPlayerIndex;
 	}
 
+	public int evaluateOffer( Offer o ) {
+		int sum = 0;	
+		int[] offer = o.getOffer();
+		for (int i=0; i < aintInHand.length; i++) {
+			sum += (int) (adblTastes[i] * Math.pow(offer[i] + aintInHand[i], 2));
+		}
+		return sum;
+	}
 }
