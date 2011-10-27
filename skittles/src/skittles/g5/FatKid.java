@@ -1,5 +1,7 @@
 package skittles.g5;
 
+import java.util.ArrayList;
+
 import skittles.sim.*;
 
 public class FatKid extends Player 
@@ -13,6 +15,7 @@ public class FatKid extends Player
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
+	int round; // update round somewhere!
 
 	@Override
 	public void eat( int[] aintTempEat )
@@ -168,7 +171,7 @@ public class FatKid extends Player
 	@Override
 	public String getClassName() 
 	{
-		return "DumpPlayer";
+		return "FatKid";
 	}
 
 	@Override
@@ -185,6 +188,23 @@ public class FatKid extends Player
 		}
 		return sum;
 	}
-
+	
+	public ArrayList<Integer> chooseSnack()  // Afreen
+	{
+		ArrayList<Integer> snack = new ArrayList<Integer>();
+		for(int i = 0; i<=5; i++)
+			snack.add(0);
+		if(round <= 5)
+		{
+			snack.add(round, 1);
+		}
+		
+		else
+		{
+			
+		}
+		
+		return null;
+	}
 
 }
