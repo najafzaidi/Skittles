@@ -17,20 +17,31 @@ public class FatKid extends Player
 	@Override
 	public void eat( int[] aintTempEat )
 	{
-		int intMaxColorIndex = -1;
-		int intMaxColorNum = 0;
+
+		double minValueTasteValue=+2;
+		int minValueTasteIndex=Integer.MAX_VALUE;
+		int skittlesToEat=0;
+		// the number of skittles in to eat 
+
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
-			if ( aintInHand[ intColorIndex ] > intMaxColorNum )
-			{
-				intMaxColorNum = aintInHand[ intColorIndex ];
-				intMaxColorIndex = intColorIndex;
+			if ( aintInHand[ intColorIndex ] > 0 )
+			{ 
+				if(minValueTasteValue>adblTastes[intColorIndex]) {
+					minValueTasteValue=adblTastes[intColorIndex];
+					minValueTasteIndex=intColorIndex;
+				}
 			}
+
 		}
-		aintTempEat[ intMaxColorIndex ] = intMaxColorNum;
-		aintInHand[ intMaxColorIndex ] = 0;
-		intLastEatIndex = intMaxColorIndex;
-		intLastEatNum = intMaxColorNum;
+		if(adblTastes[minValueTasteIndex]<0) 
+			skittlesToEat=1;
+		else 
+			skittlesToEat=aintInHand[minValueTasteIndex];
+		aintTempEat[ minValueTasteIndex ] = skittlesToEat;
+		aintInHand[ minValueTasteIndex ] -= skittlesToEat;
+		intLastEatIndex = minValueTasteIndex;
+		intLastEatNum = skittlesToEat;
 	}
 
 	@Override
@@ -38,8 +49,8 @@ public class FatKid extends Player
 	{
 		double maxValueTasteValue=-2.0;
 		double minValueTasteValue=+2;
-		int maxValueTasteIndex=Integer.MIN_VALUE;
-		int minValueTasteIndex=Integer.MAX_VALUE;
+		int maxValueTasteIndex=0;
+		int minValueTasteIndex=0;
 		int transactionSize=0;
 		// the number of skittles in offer 
 
@@ -58,7 +69,6 @@ public class FatKid extends Player
 			}
 
 		}
-
 		if(aintInHand[maxValueTasteIndex]<aintInHand[minValueTasteIndex]) 
 			transactionSize=maxValueTasteIndex;
 		else 
@@ -82,7 +92,7 @@ public class FatKid extends Player
 	public void happier(double dblHappinessUp) 
 	{
 		double dblHappinessPerCandy = dblHappinessUp / Math.pow( intLastEatNum, 2 );
-		if ( adblTastes[ intLastEatIndex ] == -1 )
+		if ( adblTastes[ intLastEatIndex ] == -2 )
 		{
 			adblTastes[ intLastEatIndex ] = dblHappinessPerCandy;
 		}
@@ -148,7 +158,7 @@ public class FatKid extends Player
 		adblTastes = new double[ intColorNum ];
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
-			adblTastes[ intColorIndex ] = -1;
+			adblTastes[ intColorIndex ] = -2;
 			// may have to initialize it to -2 so that we know that we have not tasted it yet
 		}
 	}
