@@ -9,7 +9,7 @@ public class FatKid extends Player
 	double dblHappiness;
 	String strClassName;
 	int intPlayerIndex;
-	
+
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
@@ -32,34 +32,42 @@ public class FatKid extends Player
 		intLastEatIndex = intMaxColorIndex;
 		intLastEatNum = intMaxColorNum;
 	}
-	
+
 	@Override
 	public void offer( Offer offTemp )
 	{
-		int intMaxColorIndex = 0;
-		int intMaxColorNum = 0;
-		int intMinColorIndex = 0;
-		int intMinColorNum = Integer.MAX_VALUE;
+		double maxValueTasteValue=-2.0;
+		double minValueTasteValue=+2;
+		int maxValueTasteIndex=Integer.MIN_VALUE;
+		int minValueTasteIndex=Integer.MAX_VALUE;
+		int transactionSize=0;
+		// the number of skittles in offer 
+
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
-			if ( aintInHand[ intColorIndex ] > intMaxColorNum )
-			{
-				intMaxColorNum = aintInHand[ intColorIndex ];
-				intMaxColorIndex = intColorIndex;
+			if ( aintInHand[ intColorIndex ] > 0 )
+			{ 
+				if(maxValueTasteValue<adblTastes[intColorIndex]) {
+					maxValueTasteValue=adblTastes[intColorIndex];
+					maxValueTasteIndex=intColorIndex;
+				}
+				if(minValueTasteValue>adblTastes[intColorIndex]) {
+					minValueTasteValue=adblTastes[intColorIndex];
+					minValueTasteIndex=intColorIndex;
+				}
 			}
-			if ( aintInHand[ intColorIndex ] > 0 && aintInHand[ intColorIndex ] < intMinColorNum )
-			{
-				intMinColorNum = aintInHand[ intColorIndex ];
-				intMinColorIndex = intColorIndex;
-			}
+
 		}
+
+		if(aintInHand[maxValueTasteIndex]<aintInHand[minValueTasteIndex]) 
+			transactionSize=maxValueTasteIndex;
+		else 
+			transactionSize=minValueTasteIndex;
+
 		int[] aintOffer = new int[ intColorNum ];
 		int[] aintDesire = new int[ intColorNum ];
-		if ( intMinColorIndex != intMaxColorIndex )
-		{
-			aintOffer[ intMinColorIndex ] = intMinColorNum;
-			aintDesire[ intMaxColorIndex ] = intMinColorNum;
-		}
+		aintOffer[ minValueTasteIndex ] = transactionSize;
+		aintDesire[ maxValueTasteIndex ] = transactionSize;
 		offTemp.setOffer( aintOffer, aintDesire );
 	}
 
@@ -67,7 +75,7 @@ public class FatKid extends Player
 	public void syncInHand(int[] aintInHand) 
 	{
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
@@ -141,9 +149,10 @@ public class FatKid extends Player
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
 			adblTastes[ intColorIndex ] = -1;
+			// may have to initialize it to -2 so that we know that we have not tasted it yet
 		}
 	}
-	
+
 	private boolean checkEnoughInHand( int[] aintTryToUse )
 	{
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
@@ -176,4 +185,6 @@ public class FatKid extends Player
 		}
 		return sum;
 	}
+
+
 }
