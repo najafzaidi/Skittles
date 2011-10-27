@@ -6,7 +6,7 @@
 	</Game>
 
 	<Player>
-		<Class>skittles.g5.FatKid</Class>
+		<Class>skittles.dumpplayer.DumpPlayer</Class>
 		<Happiness>random,5</Happiness>
 		<InHand>random</InHand>
 	</Player>
