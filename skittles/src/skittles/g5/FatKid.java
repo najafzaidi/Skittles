@@ -1,5 +1,7 @@
 package skittles.g5;
 
+import java.util.ArrayList;
+
 import skittles.sim.*;
 
 public class FatKid extends Player 
@@ -21,6 +23,7 @@ public class FatKid extends Player
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
+	private ArrayList<ArrayList<Integer>> netTradesPerPlayer;
 
 	@Override
 	public String getClassName() 
@@ -240,6 +243,9 @@ public class FatKid extends Player
 	@Override
 	public void updateOfferExe(Offer[] aoffCurrentOffers) 
 	{
+		for( Offer o : aoffCurrentOffers ) {
+			netTrades[o.getOfferedByIndex()]
+		}
 		// dumpplayer doesn't care
 	}
 

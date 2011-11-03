@@ -8,6 +8,11 @@ Dir structure
           skittles  (workspace for eclipse)
           Docs      (Docs contains analysis, report, presentation etc] 
 
+Git notes:
+	git branch chris-branch  		# creates a new local branch
+	git checkout branch-name  		# switch local branches; could be e.g. master or chris-branch
+	git push origin chris-branch 	# push my branch to master
+
 
 [2011-11-03] Bucket list:
 	2- add Akiva's visualization
