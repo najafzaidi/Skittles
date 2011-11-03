@@ -9,12 +9,32 @@ Dir structure
           Docs      (Docs contains analysis, report, presentation etc] 
 
 
-# Global variables
-	int round;
-	ArrayList<Integer> holdings;
+[2011-11-03] Bucket list:
+	2- add Akiva's visualization
+	1- track trades (both offers + executed) and infer player preferences			-Chris
+		- do preferences age?
+		- how does this inform our trading strategy?
+	1- states																		-Najaf
+		- unknown preferences (starting game)
+		- relevant trading (others want our offers and/or we want theirs)
+			- different trading states
+				- 
+		- end-game
+	2- eating strategy:																-Najaf
+		- state-dependent
+	2- when to trade for skittles that we have very few of? (heuristics)
+		- vs having zero of it [significant if n_skittles >> n_players ?]
+	1- some heuristics:																-Afreen
+		- small trades vs. big trades?
+		 	- 3 4 5 
+		 	- is there a short window of opportunity for trades?
+		 	- problem with Tao's halving strategy: 
+		 		- after log(n) turns we find out we've chosen a bad color combo
+		 		- with a small offer, we find out in only 1 turn
+		 		-> alternative: start w/small offer and grow it logarithmically
 
-
-# Functions:
-	int score = evaluateOffer(Offer offer) # can take dummy offer [Chris]
-	ArrayList<Integer> choice = chooseSnack()  # Afreen
-	ArrayList<Integer> offer = makeOffer()  # Najaf
+	1- offer strategy																-Chris
+		- aggregate trade accounting (*)
+			- know preferences
+			-> make offers are biased towards us, but which they'll still accept
+	-
