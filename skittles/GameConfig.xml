@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GameConfig>
 	<Game>
-		<ColorNum>5</ColorNum>
-		<SkittleNum>100</SkittleNum>
+		<ColorNum>3</ColorNum>
+		<SkittleNum>20</SkittleNum>
 	</Game>
 
 	<Player>

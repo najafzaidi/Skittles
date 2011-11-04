@@ -23,7 +23,7 @@ public class FatKid extends Player
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
-	private ArrayList<ArrayList<Integer>> netTradesPerPlayer;
+	private ArrayList<int[]> netTradesPerPlayer;	// executed trade accounting (credits, debits) stored here
 
 	@Override
 	public String getClassName() 
@@ -60,6 +60,11 @@ public class FatKid extends Player
 			maxTransactionSize=4;
 			*/
 		// has to be updated 
+		
+		netTradesPerPlayer = new ArrayList<int[]>(intPlayerNum);
+		for ( int i=0; i<intPlayerNum; i++ ) {
+			netTradesPerPlayer.add(new int[intColorNum]);
+		}
 	}
 
 
@@ -241,12 +246,51 @@ public class FatKid extends Player
 	}
 
 	@Override
-	public void updateOfferExe(Offer[] aoffCurrentOffers) 
-	{
+	public void updateOfferExe(Offer[] aoffCurrentOffers) {
+		int maker;
+		int taker;
+
 		for( Offer o : aoffCurrentOffers ) {
-			netTrades[o.getOfferedByIndex()]
+			
+			maker = o.getOfferedByIndex();
+			taker = o.getPickedByIndex();
+						
+			if (taker<0) { // the offer wasn't taken	
+				continue;
+			}
+			// an offer was executed in this round; update the round variable here
+			
+			int[] offer = o.getOffer();
+			int[] desire = o.getDesire();
+			
+			// Offer maker
+			for (int i=0; i < offer.length; i++) {  // subtract skittles given away in offer
+				if (offer[i] > 0) {
+					int currentCount = netTradesPerPlayer.get(maker)[i];
+					netTradesPerPlayer.get(maker)[i] = currentCount - offer[i];
+				}
+			}
+			for (int i=0; i < desire.length; i++) {  // add skittles taken in desired
+				if (desire[i] > 0) {
+					int currentCount = netTradesPerPlayer.get(maker)[i];
+					netTradesPerPlayer.get(maker)[i] = currentCount + desire[i];
+				}
+			}
+			
+			// Offer taker
+			for (int i=0; i < offer.length; i++) {  // add skittles given away in offer
+				if (offer[i] > 0) {
+					int currentCount = netTradesPerPlayer.get(taker)[i];
+					netTradesPerPlayer.get(taker)[i] = currentCount + offer[i];
+				}
+			}
+			for (int i=0; i < desire.length; i++) {  // subtract skittles taken in desired
+				if (desire[i] > 0) {
+					int currentCount = netTradesPerPlayer.get(taker)[i];
+					netTradesPerPlayer.get(taker)[i] = currentCount - desire[i];
+				}
+			}
 		}
-		// dumpplayer doesn't care
 	}
 
 	@Override
