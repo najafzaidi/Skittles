@@ -6,19 +6,29 @@ import skittles.sim.*;
 
 public class SkittleDiddle extends Player 
 {
+	boolean debugging=true;
+	
 	private int[] aintInHand;
 	private int intColorNum;
+	private int intPlayerNum;
 	double dblHappiness;
 	String strClassName;
 	int intPlayerIndex;
 	int round=0;
-	boolean debugging=false;
+	int lastRoundWithTrading;
+	// records the round in which some offer was executed
+	
+	int lastRoundWithOffer;
+	// records the round in which some offer was made by teams other than us
+	
 	int totalInitialSkittles;
 	int skittlesEaten;
 	int colorsLeft;
 	int colorsUnknownHave;
 	int colorsUnknownTotal;
 	int maxTransactionSize=Integer.MAX_VALUE;
+	
+	
 
 	private double[] adblTastes;
 	private int intLastEatIndex;
@@ -45,6 +55,7 @@ public class SkittleDiddle extends Player
 		this.intPlayerIndex = intPlayerIndex;
 		this.strClassName = strClassName;
 		this.aintInHand = aintInHand;
+		this.intPlayerNum = intPlayerNum;
 		intColorNum = aintInHand.length;
 		dblHappiness = 0;
 		adblTastes = new double[ intColorNum ];
@@ -93,13 +104,8 @@ public class SkittleDiddle extends Player
 		}
 		skittlesToEat=1;
 		if(minValue>0) {
-			skittlesToEat=aintInHand[minValueIndex];
-			//if(colorsLeft>intColorNum/3)
-				//skittlesToEat=1;
-			/* this should be the case if no other player is left or no active trading being done
-			 if(noActiveTrading())
-				skittlesToEat=aintInHand[minValueTasteIndex];
-			 */
+			if ((round-lastRoundWithOffer) > 2)
+				skittlesToEat=aintInHand[minValueIndex];
 		}
 		aintTempEat[ minValueIndex ] = skittlesToEat;
 		aintInHand[ minValueIndex ] -= skittlesToEat;
@@ -121,19 +127,21 @@ public class SkittleDiddle extends Player
 		int maxValueTasteIndex=0;
 		int minValueTasteIndex=0;
 		int transactionSize=0;
-		// the number of skittles in offer 
+		// the number of skittles in offer
+		if(debugging) {
+			System.out.println("\n In round "+round);
+			for ( int i=0; i<intPlayerNum; i++ ) {
+				printArray("Player "+i,netTradesPerPlayer.get(i));
+			}
+		}
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
 			if(adblTastes[intColorIndex]!=-2) {
-
 				value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
-
 				if(maxValue<value) {
 					maxValue=value;
 					maxValueTasteIndex=intColorIndex;
 				}
-
-
 				if ( aintInHand[ intColorIndex ] > 0 )
 				{ 
 					if(minValue>value) {
@@ -200,6 +208,12 @@ public class SkittleDiddle extends Player
 		double maxGain=-1;
 		for ( Offer offTemp : aoffCurrentOffers )
 		{
+			
+			if ( offTemp.getOfferedByIndex() != intPlayerIndex && lastRoundWithOffer<round) {
+				if(!isOfferEmpty(offTemp))
+					lastRoundWithOffer=round;
+			}
+			
 			if ( offTemp.getOfferedByIndex() == intPlayerIndex || offTemp.getOfferLive() == false )
 				continue;
 			int[] aintDesire = offTemp.getDesire();
@@ -209,7 +223,7 @@ public class SkittleDiddle extends Player
 				if(debugging) {
 					System.out.println("\n for intPlayerIndex="+intPlayerIndex+" gainByAccepting="+gainByAccepting+"  maxGain="+maxGain);
 					printArray("we give",offTemp.getDesire());
-					printArray("we get",offTemp.getOffer());
+					printArray("we  get",offTemp.getOffer());
 				}
 				if(gainByAccepting>maxGain && gainByAccepting>0) {
 					if(debugging) {
@@ -258,7 +272,9 @@ public class SkittleDiddle extends Player
 			if (taker<0) { // the offer wasn't taken	
 				continue;
 			}
-			// an offer was executed in this round; update the round variable here
+			
+			lastRoundWithTrading=round;
+			// an offer was executed in this round
 			
 			int[] offer = o.getOffer();
 			int[] desire = o.getDesire();
@@ -337,8 +353,17 @@ public class SkittleDiddle extends Player
 	}
 
 
-
-
+	
+	public boolean isOfferEmpty( Offer o ) {
+		int[] offer = o.getOffer();
+		int[] desire = o.getDesire();
+		for (int i=0; i < aintInHand.length; i++) {
+			if (offer[i]>0 ||desire[i]>0 ) {
+				return false;
+			}
+		}
+		return true;
+	}
 	public double evaluateOffer( Offer o ) {
 		double changeInScore = 0;	
 		int[] offer = o.getOffer();
