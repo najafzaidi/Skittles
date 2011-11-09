@@ -68,6 +68,7 @@ public class PlayerStatus
 	{
 		return intTotalInHand;
 	}
+	
 
 	protected boolean checkValidOffer( Offer offToCheck )
 	{
@@ -116,6 +117,11 @@ public class PlayerStatus
 	{
 		return strClassName;
 	}
+	
+	public double[] getTastes()
+	{
+		return adblTaste;
+	} 
 	
 	public int[] getInHand()
 	{
