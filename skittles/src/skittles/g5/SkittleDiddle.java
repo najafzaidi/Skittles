@@ -260,6 +260,25 @@ public class SkittleDiddle extends Player
 			
 		}
 		
+		int i;
+		int j;
+		for (i=0; i< intColorNum; i++)
+		{
+			if(aintOffer[i]>0)
+				break;
+		}
+		for (j=0; j< intColorNum; j++)
+		{
+			if(aintDesire[j]>0)
+				break;
+		}
+		
+		if(i<intColorNum && j<intColorNum && aintOffer[i]>aintInHand[i])
+		{
+			aintOffer[i]=aintInHand[i];
+			aintDesire[j]=aintInHand[i];
+		}
+		
 		offTemp.setOffer( aintOffer, aintDesire );
 		
 		offer_record temp = new offer_record();

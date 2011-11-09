@@ -1,10 +1,11 @@
+
 package skittles.g5;
 
 import java.util.ArrayList;
 
 import skittles.sim.*;
 
-public class FatKid extends Player 
+public class FatKidPositive extends Player 
 {
 	private int[] aintInHand;
 	private int intColorNum;
@@ -12,7 +13,7 @@ public class FatKid extends Player
 	String strClassName;
 	int intPlayerIndex;
 	int round=0;
-	boolean debugging=false;
+	boolean debugging=true;
 	int totalInitialSkittles;
 	int skittlesEaten;
 	int colorsLeft;
@@ -38,6 +39,13 @@ public class FatKid extends Player
 	int maxValueTasteIndex=-1;
 	int minValueTasteIndex=-1;
 	int transactionSize=-1;
+
+	int maxValueTasteIndexPositive=-1;
+	int minValueTasteIndexPositive=-1;
+	int transactionSizePositive=-1;
+	double maxGainPositive=0;
+	int[] ignoreMaxColors ;
+
 
 	private double[] adblTastes;
 	private int intLastEatIndex;
@@ -85,6 +93,8 @@ public class FatKid extends Player
 		lastOfferMaxIndex=-1;
 		lastOfferTransactionSize=-1;
 		lastRoundOurOfferAccepted=-1;
+		ignoreMaxColors = new int[ intColorNum ];
+
 	}
 
 
@@ -130,14 +140,15 @@ public class FatKid extends Player
 		// the number of skittles in offer 
 		double maxValue=Double.MIN_VALUE;
 		double minValue=Double.MAX_VALUE;
+
 		double value; 
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
+			value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
 			if(colorToIgnore[intColorIndex]==1)
 				continue;
 			if(adblTastes[intColorIndex]!=-2) {
-				value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
-				if(maxValue<value) {
+				if(maxValue<value && ignoreMaxColors[intColorIndex]==0) {
 					maxValue=value;
 					maxValueTasteIndex=intColorIndex;
 				}
@@ -188,13 +199,26 @@ public class FatKid extends Player
 						colorsIgnored++;
 						ignoreColors[minValueTasteIndex]=1;
 					}
-					
+
 				}
 			}
 		}
+		double basicApproachGain=evaluateOffer(maxValueTasteIndex,minValueTasteIndex,transactionSize);
 
-
-		//findPositiveOffer();
+		setBestPositiveOfferToOffer();
+		if(basicApproachGain<maxGainPositive) {
+			minValueTasteIndex=minValueTasteIndexPositive;
+			maxValueTasteIndex=maxValueTasteIndexPositive;
+			transactionSize=transactionSizePositive;
+			if(debugging) {
+				System.out.println("\n In round "+round+" positive offer is made  ");
+			}
+			if(maxGainPositive<=0)
+				ignoreMaxColors[maxValueTasteIndexPositive]=1;
+		} else {
+			if(basicApproachGain<=0)
+				ignoreMaxColors[maxValueTasteIndex]=1;
+		}
 		// will set positiveMinIndex and positiveSize
 
 		/*if(transactionSize>3*totalInitialSkittles/intColorNum)
@@ -372,6 +396,70 @@ public class FatKid extends Player
 		// TODO Auto-generated method stub
 
 	}
+	public void setBestPositiveOfferToOffer() {
+		boolean[] ignoreColors=new boolean[intColorNum];
+		double maxValue=Double.MIN_VALUE;
+		double value; 
+		int myMaxColor=0;
+		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
+		{
+			value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
+			if(adblTastes[intColorIndex]!=-2) {
+				if(maxValue<value && ignoreMaxColors[intColorIndex]==0) {
+					maxValue=value;
+					myMaxColor=intColorIndex;
+				}
+			}
+		}
+		if (maxValue<=0)
+			return;
+
+		double maxGain=0;
+		int bestTransactionSize=0;
+		int bestPartnersIndex=0;
+		for(int p=0;p<intPlayerNum;p++) {
+			if(intPlayerIndex==p)
+				continue;
+			int partnersBestColor=returnBestPreferenceIndexForPlayer(p,ignoreColors) ;
+			if( partnersBestColor !=myMaxColor && aintInHand[partnersBestColor]>0) {
+				if(netTradesPerPlayer.get(p)[myMaxColor]>0) {
+					int positiveTransactionSize=0;
+					if(aintInHand[partnersBestColor]>netTradesPerPlayer.get(p)[myMaxColor])
+						positiveTransactionSize=netTradesPerPlayer.get(p)[myMaxColor];
+					else
+						positiveTransactionSize=aintInHand[partnersBestColor];
+
+					double gain=evaluateOffer(myMaxColor,partnersBestColor,positiveTransactionSize);
+					if(gain>maxGain) {
+						maxGain=gain;
+						bestPartnersIndex=partnersBestColor;
+						bestTransactionSize=positiveTransactionSize;
+					}
+				}
+
+			}
+		}
+		maxValueTasteIndexPositive=myMaxColor;
+		minValueTasteIndexPositive=bestPartnersIndex;
+		transactionSizePositive=bestTransactionSize;
+		maxGainPositive=maxGain;
+
+
+
+	}
+	public int returnBestPreferenceIndexForPlayer(int playerIndex, boolean[] ignoreColors) {
+		int bestColorIndex=0;
+		int max =0;
+		for (int i=0; i<intColorNum;i++) {
+			//if(ignoreColors[i])
+			//continue;
+			if(max<netTradesPerPlayer.get(playerIndex)[i]) {
+				max=netTradesPerPlayer.get(playerIndex)[i];
+				bestColorIndex=i;
+			}
+		}
+		return bestColorIndex;
+	}
 
 	public boolean isOfferEmpty( Offer o ) {
 		int[] offer = o.getOffer();
@@ -420,12 +508,25 @@ public class FatKid extends Player
 	}
 
 
+	public double evaluateOffer( int offerIndex, int DesireIndex, int transactionSize) {
+		int[] offer = new int[intColorNum];
+		int[] desire = new int[intColorNum];
+		offer[offerIndex]=transactionSize;
+		desire[DesireIndex]=transactionSize;
+		return evaluateOffer(offer,desire  );
+
+	}
 
 
 	public double evaluateOffer( Offer o ) {
-		double changeInScore = 0;	
 		int[] offer = o.getOffer();
 		int[] desire = o.getDesire();
+		return evaluateOffer(offer,desire  );
+
+	}
+
+	public double evaluateOffer(int[] offer, int[] desire  ) {
+		double changeInScore = 0;	
 		for (int i=0; i < aintInHand.length; i++) {
 			if (adblTastes[i]>0) {
 				changeInScore += (adblTastes[i] * Math.pow((offer[i] + aintInHand[i]), 2)) - (adblTastes[i] * Math.pow(aintInHand[i], 2));
@@ -438,7 +539,6 @@ public class FatKid extends Player
 		}
 		return changeInScore;
 	}
-
 
 	private boolean checkEnoughInHand( int[] aintTryToUse )
 	{
