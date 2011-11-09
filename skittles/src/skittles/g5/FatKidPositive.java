@@ -191,7 +191,7 @@ public class FatKidPositive extends Player
 			maxValue=findBestOfferToMake(ignoreColors);
 			System.out.println("maxValueTasteIndex="+maxValueTasteIndex+"minValueTasteIndex="+minValueTasteIndex+"transactionSize="+transactionSize+"maxValue="+maxValue);
 			loopOn=false;
-			if(lastOfferMinIndex==minValueTasteIndex && lastOfferMaxIndex==maxValueTasteIndex ) {
+			if(lastOfferMinIndex==minValueTasteIndex && lastOfferMaxIndex==maxValueTasteIndex && loopOn) {
 				if( lastRoundOurOfferAccepted!=(round-1)) {
 					transactionSize=transactionSize*3/4;
 					if (transactionSize<1) {
@@ -204,12 +204,12 @@ public class FatKidPositive extends Player
 			}
 		}
 		double basicApproachGain=evaluateOffer(maxValueTasteIndex,minValueTasteIndex,transactionSize);
-
 		setBestPositiveOfferToOffer();
+		//maxValueTasteIndex=0; 
 		
-		if(round>intColorNum)
-			basicApproachGain=-1;
-		if(basicApproachGain<maxGainPositive) {
+		//if(round>intColorNum*2)
+		//	basicApproachGain=-1;
+		if(basicApproachGain<(maxGainPositive*maxGainPositive)) {
 			minValueTasteIndex=minValueTasteIndexPositive;
 			maxValueTasteIndex=maxValueTasteIndexPositive;
 			transactionSize=transactionSizePositive;

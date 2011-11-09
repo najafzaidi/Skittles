@@ -25,7 +25,7 @@ public class Game
 	private ArrayList< PlayerStatus > alPlayerStatus;
 	private int intPlayerNum;
 	private int intColorNum;
-	private boolean doAllPermutations=false;
+	private boolean doAllPermutations=true;
 	
 	private Double[] totalScores;
 	private  Integer[][] factorialPermutations;
@@ -685,7 +685,7 @@ public class Game
 	public void printArray(String message,double[] tempArray) {
 		String printingString="";
 		for (int i=0;i<tempArray.length;i++) {
-			printingString=printingString+" , "+String.format("%+1.5f",tempArray[i]);
+			printingString=printingString+" , "+String.format("%+1.2f",tempArray[i]);
 		}
 		System.out.println(message+"  "+printingString);
 	}
