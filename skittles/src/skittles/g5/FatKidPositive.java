@@ -206,6 +206,9 @@ public class FatKidPositive extends Player
 		double basicApproachGain=evaluateOffer(maxValueTasteIndex,minValueTasteIndex,transactionSize);
 
 		setBestPositiveOfferToOffer();
+		
+		if(round>intColorNum)
+			basicApproachGain=-1;
 		if(basicApproachGain<maxGainPositive) {
 			minValueTasteIndex=minValueTasteIndexPositive;
 			maxValueTasteIndex=maxValueTasteIndexPositive;
