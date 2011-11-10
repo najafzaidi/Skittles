@@ -1,0 +1,3019 @@
+Player #0's happiness is: 311.88304792409537
+Player #1's happiness is: 283.4315055414511
+Player #2's happiness is: 282.4550850431199
+Player #3's happiness is: 253.908641184356
+Player #4's happiness is: 297.7444250880312
+
+
+Player #0's happiness is: 336.6091838302981
+Player #1's happiness is: 311.45719547556905
+Player #2's happiness is: 337.40034366667567
+Player #3's happiness is: 432.60115267853064
+Player #4's happiness is: 265.33604128912236
+
+
+Player #0's happiness is: 322.918207613399
+Player #1's happiness is: 295.43113250780607
+Player #2's happiness is: 277.5384468451448
+Player #3's happiness is: 264.96792117100534
+Player #4's happiness is: 299.7106831863316
+
+
+Player #0's happiness is: 313.0478500191574
+Player #1's happiness is: 229.4104238401706
+Player #2's happiness is: 289.53156030628656
+Player #3's happiness is: 276.709139451658
+Player #4's happiness is: 295.8820444912759
+
+
+Player #0's happiness is: 301.68297504716116
+Player #1's happiness is: 233.63938983332048
+Player #2's happiness is: 242.43278984853927
+Player #3's happiness is: 319.6748342977075
+Player #4's happiness is: 214.3200822016015
+
+
+Player #0's happiness is: 320.134264379843
+Player #1's happiness is: 263.13678107658416
+Player #2's happiness is: 286.2027072080815
+Player #3's happiness is: 405.6213597829453
+Player #4's happiness is: 221.16785210769388
+
+
+Player #0's happiness is: 284.12694866946276
+Player #1's happiness is: 221.24774607878305
+Player #2's happiness is: 294.2289019912415
+Player #3's happiness is: 372.7615388591404
+Player #4's happiness is: 213.8974752959544
+
+
+Player #0's happiness is: 294.19072909124486
+Player #1's happiness is: 213.1620223595762
+Player #2's happiness is: 241.66620478956855
+Player #3's happiness is: 284.9391537314482
+Player #4's happiness is: 208.1388933307667
+
+
+Player #0's happiness is: 297.2176722776191
+Player #1's happiness is: 213.58024609863233
+Player #2's happiness is: 242.08442852862464
+Player #3's happiness is: 284.11713864055196
+Player #4's happiness is: 209.27975514773763
+
+
+Player #0's happiness is: 303.7464115631315
+Player #1's happiness is: 293.33088334282604
+Player #2's happiness is: 304.6293307385439
+Player #3's happiness is: 375.59977083954726
+Player #4's happiness is: 287.47915059756326
+
+
+Player #0's happiness is: 318.3299722539811
+Player #1's happiness is: 285.93726212134527
+Player #2's happiness is: 268.4037476813621
+Player #3's happiness is: 408.9365854572666
+Player #4's happiness is: 245.09142813625226
+
+
+Player #0's happiness is: 313.96436249490137
+Player #1's happiness is: 276.5591841677076
+Player #2's happiness is: 275.49941264610686
+Player #3's happiness is: 262.46842693069715
+Player #4's happiness is: 295.65726977651974
+
+
+Player #0's happiness is: 322.76837444921796
+Player #1's happiness is: 275.5493231540971
+Player #2's happiness is: 274.4895516324964
+Player #3's happiness is: 251.8376889435846
+Player #4's happiness is: 289.4051077004318
+
+
+Player #0's happiness is: 294.90926162694075
+Player #1's happiness is: 213.35361573192836
+Player #2's happiness is: 241.8577981619207
+Player #3's happiness is: 284.7553042648518
+Player #4's happiness is: 209.1369572404844
+
+
+Player #0's happiness is: 309.29364201132177
+Player #1's happiness is: 235.98158598497284
+Player #2's happiness is: 309.01426281074396
+Player #3's happiness is: 373.0121005575487
+Player #4's happiness is: 283.9581028702769
+
+
+Player #0's happiness is: 320.50367494305806
+Player #1's happiness is: 283.09849661586424
+Player #2's happiness is: 288.16841741207804
+Player #3's happiness is: 296.2972473797372
+Player #4's happiness is: 301.4739441467616
+
+
+Player #0's happiness is: 312.55661798601653
+Player #1's happiness is: 283.5781364400285
+Player #2's happiness is: 274.5707090894589
+Player #3's happiness is: 263.4406048206781
+Player #4's happiness is: 296.7429454306457
+
+
+Player #0's happiness is: 293.849310294867
+Player #1's happiness is: 212.82060356319835
+Player #2's happiness is: 241.3247859931907
+Player #3's happiness is: 291.1967879835389
+Player #4's happiness is: 199.49132750403098
+
+
+Player #0's happiness is: 292.6322995709585
+Player #1's happiness is: 220.27234929252342
+Player #2's happiness is: 266.1519189201393
+Player #3's happiness is: 326.0996637329298
+Player #4's happiness is: 261.3591625436858
+
+
+Player #0's happiness is: 328.3257004248951
+Player #1's happiness is: 306.3093706808279
+Player #2's happiness is: 313.3327499891389
+Player #3's happiness is: 429.15022296477827
+Player #4's happiness is: 254.80762493314444
+
+
+Player #0's happiness is: 307.6267964841544
+Player #1's happiness is: 278.6483149381664
+Player #2's happiness is: 279.71892038157563
+Player #3's happiness is: 299.9665599342874
+Player #4's happiness is: 215.6302070100229
+
+
+Player #0's happiness is: 293.63662704692837
+Player #1's happiness is: 248.97849355480594
+Player #2's happiness is: 278.3425188309116
+Player #3's happiness is: 387.784190492324
+Player #4's happiness is: 208.8533875271515
+
+
+Player #0's happiness is: 300.21887343916285
+Player #1's happiness is: 215.3060717453455
+Player #2's happiness is: 251.08444863348544
+Player #3's happiness is: 287.60066412281276
+Player #4's happiness is: 209.32743921949083
+
+
+Player #0's happiness is: 277.11819051765406
+Player #1's happiness is: 269.9343686921719
+Player #2's happiness is: 261.06583257291976
+Player #3's happiness is: 334.10708955518476
+Player #4's happiness is: 209.71670503731292
+
+
+Player #0's happiness is: 294.3450916179189
+Player #1's happiness is: 212.78944572290646
+Player #2's happiness is: 242.34688271564494
+Player #3's happiness is: 277.74229532965757
+Player #4's happiness is: 211.14752154977924
+
+
+Player #0's happiness is: 345.0858547358779
+Player #1's happiness is: 234.69077149076742
+Player #2's happiness is: 264.63944672286766
+Player #3's happiness is: 344.74396785717255
+Player #4's happiness is: 312.011137464129
+
+
+Player #0's happiness is: 325.43695210565016
+Player #1's happiness is: 233.07690779850827
+Player #2's happiness is: 263.908445865667
+Player #3's happiness is: 395.5213790473657
+Player #4's happiness is: 253.16456622098394
+
+
+Player #0's happiness is: 325.32286914688336
+Player #1's happiness is: 253.93159859924424
+Player #2's happiness is: 295.4657424308461
+Player #3's happiness is: 350.2726573904646
+Player #4's happiness is: 302.33834181836994
+
+
+Player #0's happiness is: 307.3496879876194
+Player #1's happiness is: 252.53138081641455
+Player #2's happiness is: 247.6350257072213
+Player #3's happiness is: 322.90092650174273
+Player #4's happiness is: 217.18237678017056
+
+
+Player #0's happiness is: 276.0975940313009
+Player #1's happiness is: 231.68704742989098
+Player #2's happiness is: 280.10576983267975
+Player #3's happiness is: 291.8242809854545
+Player #4's happiness is: 267.2909208658232
+
+
+Player #0's happiness is: 294.7080751212569
+Player #1's happiness is: 211.07064894227017
+Player #2's happiness is: 233.3761096386607
+Player #3's happiness is: 286.87299208635835
+Player #4's happiness is: 195.15544334099786
+
+
+Player #0's happiness is: 294.19072909124486
+Player #1's happiness is: 213.1620223595762
+Player #2's happiness is: 241.66620478956855
+Player #3's happiness is: 284.9391537314482
+Player #4's happiness is: 208.1388933307667
+
+
+Player #0's happiness is: 320.50367494305806
+Player #1's happiness is: 283.09849661586424
+Player #2's happiness is: 288.16841741207804
+Player #3's happiness is: 296.2972473797372
+Player #4's happiness is: 301.4739441467616
+
+
+Player #0's happiness is: 313.69694350706004
+Player #1's happiness is: 229.5325781647295
+Player #2's happiness is: 289.65371463084546
+Player #3's happiness is: 276.8312937762169
+Player #4's happiness is: 296.0880312752856
+
+
+Player #0's happiness is: 313.96436249490137
+Player #1's happiness is: 276.5591841677076
+Player #2's happiness is: 275.49941264610686
+Player #3's happiness is: 262.46842693069715
+Player #4's happiness is: 295.65726977651974
+
+
+Player #0's happiness is: 293.849310294867
+Player #1's happiness is: 212.82060356319835
+Player #2's happiness is: 241.3247859931907
+Player #3's happiness is: 291.1967879835389
+Player #4's happiness is: 199.49132750403098
+
+
+Player #0's happiness is: 318.47681398448117
+Player #1's happiness is: 293.59845832620636
+Player #2's happiness is: 275.7057726635451
+Player #3's happiness is: 256.08094301830886
+Player #4's happiness is: 298.37766151514813
+
+
+Player #0's happiness is: 288.1687582910489
+Player #1's happiness is: 233.691559182122
+Player #2's happiness is: 287.0561535278659
+Player #3's happiness is: 350.9736526787018
+Player #4's happiness is: 266.7905834307043
+
+
+Player #0's happiness is: 298.06224725112963
+Player #1's happiness is: 233.57260460407866
+Player #2's happiness is: 323.83681120700624
+Player #3's happiness is: 364.4751955337891
+Player #4's happiness is: 305.66873811524687
+
+
+Player #0's happiness is: 292.2097820769244
+Player #1's happiness is: 212.77365624044785
+Player #2's happiness is: 245.42172785870247
+Player #3's happiness is: 310.23020257066185
+Player #4's happiness is: 224.7239927812234
+
+
+Player #0's happiness is: 307.7068178796743
+Player #1's happiness is: 254.97029099244384
+Player #2's happiness is: 248.4566326810524
+Player #3's happiness is: 350.6187916169011
+Player #4's happiness is: 210.2359663833896
+
+
+Player #0's happiness is: 299.6955554992552
+Player #1's happiness is: 232.17890944875828
+Player #2's happiness is: 234.54404194347615
+Player #3's happiness is: 318.5897967520938
+Player #4's happiness is: 212.1369637391245
+
+
+Player #0's happiness is: 308.02699401375776
+Player #1's happiness is: 221.47338383813823
+Player #2's happiness is: 267.9471851641905
+Player #3's happiness is: 327.70522169087644
+Player #4's happiness is: 264.3247637303825
+
+
+Player #0's happiness is: 307.642946309097
+Player #1's happiness is: 272.84648742922127
+Player #2's happiness is: 267.87862696873646
+Player #3's happiness is: 249.71047863306364
+Player #4's happiness is: 288.9431492909514
+
+
+Player #0's happiness is: 310.98442429836666
+Player #1's happiness is: 276.187965418491
+Player #2's happiness is: 275.12819389689025
+Player #3's happiness is: 263.5724719606302
+Player #4's happiness is: 294.5634129493883
+
+
+Player #0's happiness is: 313.9094134941505
+Player #1's happiness is: 279.11295461427477
+Player #2's happiness is: 284.1828754104886
+Player #3's happiness is: 278.42902916056744
+Player #4's happiness is: 294.0520878021231
+
+
+Player #0's happiness is: 327.10897868375463
+Player #1's happiness is: 251.81085756456832
+Player #2's happiness is: 324.1390206867769
+Player #3's happiness is: 334.2888608842764
+Player #4's happiness is: 307.8445869351449
+
+
+Player #0's happiness is: 315.703364597215
+Player #1's happiness is: 232.49695361037936
+Player #2's happiness is: 288.4549573284959
+Player #3's happiness is: 325.2405261101959
+Player #4's happiness is: 295.3275567160198
+
+
+Player #0's happiness is: 300.21887343916285
+Player #1's happiness is: 215.3060717453455
+Player #2's happiness is: 251.08444863348544
+Player #3's happiness is: 287.60066412281276
+Player #4's happiness is: 209.32743921949083
+
+
+Player #0's happiness is: 301.4571809358443
+Player #1's happiness is: 222.02105509936774
+Player #2's happiness is: 254.66912671762242
+Player #3's happiness is: 309.0814279836349
+Player #4's happiness is: 290.6045593806897
+
+
+Player #0's happiness is: 298.88734089186966
+Player #1's happiness is: 253.32250057276082
+Player #2's happiness is: 277.23481483895256
+Player #3's happiness is: 340.0368210486915
+Player #4's happiness is: 278.7517543202547
+
+
+Player #0's happiness is: 296.87625348124124
+Player #1's happiness is: 213.23882730225446
+Player #2's happiness is: 241.74300973224678
+Player #3's happiness is: 290.37477289264274
+Player #4's happiness is: 200.63218932100187
+
+
+Player #0's happiness is: 314.7254269798053
+Player #1's happiness is: 283.66516514984295
+Player #2's happiness is: 282.6887446515118
+Player #3's happiness is: 252.7018793873892
+Player #4's happiness is: 297.97808469642314
+
+
+Player #0's happiness is: 300.42735682834837
+Player #1's happiness is: 230.30199133053333
+Player #2's happiness is: 239.09539134575215
+Player #3's happiness is: 306.9539835698206
+Player #4's happiness is: 201.59736312600415
+
+
+Player #0's happiness is: 320.1093157816091
+Player #1's happiness is: 239.92609247129695
+Player #2's happiness is: 319.22113806860574
+Player #3's happiness is: 313.7463954748732
+Player #4's happiness is: 303.0105367764245
+
+
+Player #0's happiness is: 317.62506305148065
+Player #1's happiness is: 227.93871392688663
+Player #2's happiness is: 260.23762312454824
+Player #3's happiness is: 388.21113074870254
+Player #4's happiness is: 239.6380717803886
+
+
+Player #0's happiness is: 314.7254269798053
+Player #1's happiness is: 283.66516514984295
+Player #2's happiness is: 282.6887446515118
+Player #3's happiness is: 252.7018793873892
+Player #4's happiness is: 297.97808469642314
+
+
+Player #0's happiness is: 313.8949234471081
+Player #1's happiness is: 276.48974511991435
+Player #2's happiness is: 275.4299735983136
+Player #3's happiness is: 262.77443072185235
+Player #4's happiness is: 294.86519265081165
+
+
+Player #0's happiness is: 319.46022229370647
+Player #1's happiness is: 239.80393814673803
+Player #2's happiness is: 319.0989837440468
+Player #3's happiness is: 313.62424115031433
+Player #4's happiness is: 302.8045499924149
+
+
+Player #0's happiness is: 327.8878610325955
+Player #1's happiness is: 306.2891365074953
+Player #2's happiness is: 321.23385519595615
+Player #3's happiness is: 407.89287121766455
+Player #4's happiness is: 268.4196033057467
+
+
+Player #0's happiness is: 321.463249973216
+Player #1's happiness is: 262.5511167748748
+Player #2's happiness is: 251.82421524989525
+Player #3's happiness is: 244.3377618119485
+Player #4's happiness is: 289.4658712032556
+
+
+Player #0's happiness is: 304.4146850744253
+Player #1's happiness is: 222.36983979063058
+Player #2's happiness is: 255.01791140888525
+Player #3's happiness is: 308.5654166838939
+Player #4's happiness is: 290.95334407195253
+
+
+Player #0's happiness is: 297.1482332298258
+Player #1's happiness is: 213.51080705083905
+Player #2's happiness is: 242.0149894808314
+Player #3's happiness is: 284.4231424317072
+Player #4's happiness is: 208.48767802202954
+
+
+Player #0's happiness is: 320.6899951295169
+Player #1's happiness is: 245.90161266422086
+Player #2's happiness is: 311.229206021821
+Player #3's happiness is: 358.407101803617
+Player #4's happiness is: 319.34070041982693
+
+
+Player #0's happiness is: 307.3218726005956
+Player #1's happiness is: 225.01779035409635
+Player #2's happiness is: 261.0034948673357
+Player #3's happiness is: 287.4802474360265
+Player #4's happiness is: 279.8312779897518
+
+
+Player #0's happiness is: 300.9787476763031
+Player #1's happiness is: 219.95004094463445
+Player #2's happiness is: 272.7735692669546
+Player #3's happiness is: 293.20504454733
+Player #4's happiness is: 223.06978671796486
+
+
+Player #0's happiness is: 325.726808265811
+Player #1's happiness is: 303.601144577367
+Player #2's happiness is: 296.95599376132407
+Player #3's happiness is: 433.9568809698649
+Player #4's happiness is: 244.60258038380871
+
+
+Player #0's happiness is: 323.81750654132503
+Player #1's happiness is: 253.70653904543303
+Player #2's happiness is: 283.0147528840756
+Player #3's happiness is: 358.6320893502428
+Player #4's happiness is: 210.56141285655917
+
+
+Player #0's happiness is: 302.5711523816135
+Player #1's happiness is: 279.5633729963606
+Player #2's happiness is: 270.8896905268085
+Player #3's happiness is: 385.269314781855
+Player #4's happiness is: 209.9386987304921
+
+
+Player #0's happiness is: 297.2176722776191
+Player #1's happiness is: 213.58024609863233
+Player #2's happiness is: 242.08442852862464
+Player #3's happiness is: 284.11713864055196
+Player #4's happiness is: 209.27975514773763
+
+
+Player #0's happiness is: 309.6672210980376
+Player #1's happiness is: 263.2756107080386
+Player #2's happiness is: 252.03433910161388
+Player #3's happiness is: 344.9498381953904
+Player #4's happiness is: 221.66552263401388
+
+
+Player #0's happiness is: 303.7507278437035
+Player #1's happiness is: 236.69276452642987
+Player #2's happiness is: 292.5226840643404
+Player #3's happiness is: 368.63312561184364
+Player #4's happiness is: 270.8309831079315
+
+
+Player #0's happiness is: 332.2135440544597
+Player #1's happiness is: 317.99634135727604
+Player #2's happiness is: 281.5933293336247
+Player #3's happiness is: 433.70672503379393
+Player #4's happiness is: 241.09668789854695
+
+
+Player #0's happiness is: 316.86691763273143
+Player #1's happiness is: 279.4617393055376
+Player #2's happiness is: 284.5316601017514
+Player #3's happiness is: 277.91301786082647
+Player #4's happiness is: 294.4008724933859
+
+
+Player #0's happiness is: 310.61887637603036
+Player #1's happiness is: 275.8224174961547
+Player #2's happiness is: 270.8545570356698
+Player #3's happiness is: 263.40710661370025
+Player #4's happiness is: 296.0780317788485
+
+
+Player #0's happiness is: 294.2601681390381
+Player #1's happiness is: 213.23146140736947
+Player #2's happiness is: 241.7356438373618
+Player #3's happiness is: 284.6331499402929
+Player #4's happiness is: 208.93097045647477
+
+
+Player #0's happiness is: 316.86691763273143
+Player #1's happiness is: 279.4617393055376
+Player #2's happiness is: 284.5316601017514
+Player #3's happiness is: 277.91301786082647
+Player #4's happiness is: 294.4008724933859
+
+
+Player #0's happiness is: 320.1093157816091
+Player #1's happiness is: 239.92609247129695
+Player #2's happiness is: 319.22113806860574
+Player #3's happiness is: 313.7463954748732
+Player #4's happiness is: 303.0105367764245
+
+
+Player #0's happiness is: 313.0478500191574
+Player #1's happiness is: 229.4104238401706
+Player #2's happiness is: 289.53156030628656
+Player #3's happiness is: 276.709139451658
+Player #4's happiness is: 295.8820444912759
+
+
+Player #0's happiness is: 307.642946309097
+Player #1's happiness is: 272.84648742922127
+Player #2's happiness is: 267.87862696873646
+Player #3's happiness is: 249.71047863306364
+Player #4's happiness is: 288.9431492909514
+
+
+Player #0's happiness is: 304.57038433022285
+Player #1's happiness is: 276.1188419475786
+Player #2's happiness is: 272.0540937805872
+Player #3's happiness is: 280.5576345561518
+Player #4's happiness is: 222.99511422778812
+
+
+Player #0's happiness is: 299.6639437232342
+Player #1's happiness is: 224.90122507701167
+Player #2's happiness is: 307.5798867627926
+Player #3's happiness is: 346.0560156907049
+Player #4's happiness is: 285.7041788738235
+
+
+Player #0's happiness is: 323.9958549353744
+Player #1's happiness is: 255.8596302075226
+Player #2's happiness is: 321.0258969383966
+Player #3's happiness is: 372.333090083198
+Player #4's happiness is: 240.84659510622686
+
+
+Player #0's happiness is: 319.6895424865975
+Player #1's happiness is: 272.9917004852509
+Player #2's happiness is: 311.6057273225314
+Player #3's happiness is: 340.91518350688443
+Player #4's happiness is: 302.85076202768465
+
+
+Player #0's happiness is: 324.24407582553715
+Player #1's happiness is: 276.4980853670725
+Player #2's happiness is: 273.8355745137343
+Player #3's happiness is: 252.9521214483168
+Player #4's happiness is: 296.0078108549211
+
+
+Player #0's happiness is: 324.78785861774753
+Player #1's happiness is: 232.95475347394938
+Player #2's happiness is: 263.7862915411081
+Player #3's happiness is: 395.3992247228068
+Player #4's happiness is: 252.95857943697428
+
+
+Player #0's happiness is: 301.68297504716116
+Player #1's happiness is: 233.63938983332048
+Player #2's happiness is: 242.43278984853927
+Player #3's happiness is: 319.6748342977075
+Player #4's happiness is: 214.3200822016015
+
+
+Player #0's happiness is: 308.36147884479294
+Player #1's happiness is: 273.03808080157347
+Player #2's happiness is: 268.07022034108866
+Player #3's happiness is: 249.5266291664673
+Player #4's happiness is: 289.9412132006691
+
+
+Player #0's happiness is: 293.58615294584024
+Player #1's happiness is: 283.4149331156261
+Player #2's happiness is: 285.7707019349825
+Player #3's happiness is: 391.03909131845654
+Player #4's happiness is: 268.0803229756368
+
+
+Player #0's happiness is: 311.1369405248518
+Player #1's happiness is: 265.1743389050995
+Player #2's happiness is: 264.44642420689127
+Player #3's happiness is: 261.44977251503974
+Player #4's happiness is: 293.66696016355473
+
+
+Player #0's happiness is: 308.14737232701975
+Player #1's happiness is: 273.3509134471441
+Player #2's happiness is: 272.29114192554334
+Player #3's happiness is: 249.26383639768306
+Player #4's happiness is: 289.01268471290723
+
+
+Player #0's happiness is: 310.98442429836666
+Player #1's happiness is: 276.187965418491
+Player #2's happiness is: 275.12819389689025
+Player #3's happiness is: 263.5724719606302
+Player #4's happiness is: 294.5634129493883
+
+
+Player #0's happiness is: 293.91874934266025
+Player #1's happiness is: 212.8900426109916
+Player #2's happiness is: 241.39422504098394
+Player #3's happiness is: 290.8907841923837
+Player #4's happiness is: 200.28340462973904
+
+
+Player #0's happiness is: 317.54617080447713
+Player #1's happiness is: 282.7497119246014
+Player #2's happiness is: 287.8196327208152
+Player #3's happiness is: 296.81325867947817
+Player #4's happiness is: 301.12515945549876
+
+
+Player #0's happiness is: 285.6999113215801
+Player #1's happiness is: 235.54807937598838
+Player #2's happiness is: 299.90551950657743
+Player #3's happiness is: 344.2277987480368
+Player #4's happiness is: 277.64747709575875
+
+
+Player #0's happiness is: 315.28455427321273
+Player #1's happiness is: 228.92355244496093
+Player #2's happiness is: 314.2139010695987
+Player #3's happiness is: 380.31248413706203
+Player #4's happiness is: 218.04926747362308
+
+
+Player #0's happiness is: 306.2105441693099
+Player #1's happiness is: 262.32972283353195
+Player #2's happiness is: 259.63382816079087
+Player #3's happiness is: 247.7091982662268
+Player #4's happiness is: 291.544982169902
+
+
+Player #0's happiness is: 282.784338279329
+Player #1's happiness is: 253.5666856428984
+Player #2's happiness is: 263.9745212759001
+Player #3's happiness is: 419.36856505689093
+Player #4's happiness is: 196.31777269157308
+
+
+Player #0's happiness is: 297.1482332298258
+Player #1's happiness is: 213.51080705083905
+Player #2's happiness is: 242.0149894808314
+Player #3's happiness is: 284.4231424317072
+Player #4's happiness is: 208.48767802202954
+
+
+Player #0's happiness is: 297.8667657655218
+Player #1's happiness is: 213.70240042319122
+Player #2's happiness is: 242.20658285318353
+Player #3's happiness is: 284.23929296511085
+Player #4's happiness is: 209.48574193174727
+
+
+Player #0's happiness is: 291.8375750282005
+Player #1's happiness is: 283.04867045090407
+Player #2's happiness is: 257.0741997939596
+Player #3's happiness is: 318.44957684158817
+Player #4's happiness is: 190.48643376834733
+
+
+Player #0's happiness is: 714.5722948254443
+Player #1's happiness is: 525.726110280014
+Player #2's happiness is: 485.1555698539763
+Player #3's happiness is: 643.6689063068441
+Player #4's happiness is: 488.0796279238565
+Player #5's happiness is: 561.8525532258266
+
+
+Player #0's happiness is: 496.8338716538311
+Player #1's happiness is: 375.464017834325
+Player #2's happiness is: 461.5652622896432
+Player #3's happiness is: 560.7248990967429
+Player #4's happiness is: 400.5741270705073
+Player #5's happiness is: 487.16989636111265
+
+
+Player #0's happiness is: 282.2084251267738
+Player #1's happiness is: 262.4961995112371
+Player #2's happiness is: 396.5194238005365
+Player #3's happiness is: 460.6817760205828
+Player #4's happiness is: 370.4393710091806
+Player #5's happiness is: 387.26302150092556
+
+
+Player #0's happiness is: 393.02394451192606
+Player #1's happiness is: 346.5440229236176
+Player #2's happiness is: 445.76701153570195
+Player #3's happiness is: 550.1915491619741
+Player #4's happiness is: 437.0944861753314
+Player #5's happiness is: 472.14023081768084
+
+
+Player #0's happiness is: 470.3806103197269
+Player #1's happiness is: 409.16520898291776
+Player #2's happiness is: 439.9107717271884
+Player #3's happiness is: 605.1556763703817
+Player #4's happiness is: 453.23163611497
+Player #5's happiness is: 545.519516900635
+
+
+Player #0's happiness is: 307.7976315411723
+Player #1's happiness is: 339.5313066876266
+Player #2's happiness is: 408.44210143375994
+Player #3's happiness is: 407.0075279206855
+Player #4's happiness is: 354.3542792951572
+Player #5's happiness is: 431.9485389616052
+
+
+Player #0's happiness is: 480.41846134563934
+Player #1's happiness is: 332.8263128048176
+Player #2's happiness is: 332.0123307709663
+Player #3's happiness is: 395.5213135505966
+Player #4's happiness is: 374.9190640287669
+Player #5's happiness is: 454.7464011954428
+
+
+Player #0's happiness is: 529.1815347134255
+Player #1's happiness is: 430.8957989685397
+Player #2's happiness is: 435.75266186038016
+Player #3's happiness is: 627.523235055501
+Player #4's happiness is: 430.0339196625091
+Player #5's happiness is: 551.1796713152304
+
+
+Player #0's happiness is: 347.037149191263
+Player #1's happiness is: 280.00093228453966
+Player #2's happiness is: 436.26339102291746
+Player #3's happiness is: 416.4373809133527
+Player #4's happiness is: 357.8258120654302
+Player #5's happiness is: 394.99891255541434
+
+
+Player #0's happiness is: 345.3475526051456
+Player #1's happiness is: 335.70676639659825
+Player #2's happiness is: 442.6201873669693
+Player #3's happiness is: 609.7197351465152
+Player #4's happiness is: 372.9654758412172
+Player #5's happiness is: 362.7063684534079
+
+
+Player #0's happiness is: 729.0964212891147
+Player #1's happiness is: 582.692299951052
+Player #2's happiness is: 567.5647901840075
+Player #3's happiness is: 775.2523884034586
+Player #4's happiness is: 543.3575013501763
+Player #5's happiness is: 896.1294910589795
+
+
+Player #0's happiness is: 373.4873177264334
+Player #1's happiness is: 328.44834500313215
+Player #2's happiness is: 328.6657970632051
+Player #3's happiness is: 357.07214905795416
+Player #4's happiness is: 349.14408393599433
+Player #5's happiness is: 387.7013574714921
+
+
+Player #0's happiness is: 312.0665114261974
+Player #1's happiness is: 300.73171401393574
+Player #2's happiness is: 370.2389164046921
+Player #3's happiness is: 412.5735396060214
+Player #4's happiness is: 382.19098264115144
+Player #5's happiness is: 407.19461895434824
+
+
+Player #0's happiness is: 318.5051525531815
+Player #1's happiness is: 318.4860374985701
+Player #2's happiness is: 414.34306698641444
+Player #3's happiness is: 470.2099941064323
+Player #4's happiness is: 392.25803621771536
+Player #5's happiness is: 398.0916055547881
+
+
+Player #0's happiness is: 444.7584705884643
+Player #1's happiness is: 471.4931455416637
+Player #2's happiness is: 456.09761238311575
+Player #3's happiness is: 760.2015112248405
+Player #4's happiness is: 449.63831027063355
+Player #5's happiness is: 745.0901162698664
+
+
+Player #0's happiness is: 478.38495325251176
+Player #1's happiness is: 416.648409110207
+Player #2's happiness is: 567.3050953657644
+Player #3's happiness is: 633.1860366461433
+Player #4's happiness is: 447.92719788324365
+Player #5's happiness is: 711.618984606268
+
+
+Player #0's happiness is: 325.44558174241763
+Player #1's happiness is: 361.1058697294451
+Player #2's happiness is: 344.14408533959755
+Player #3's happiness is: 521.0844444807315
+Player #4's happiness is: 369.19188551706327
+Player #5's happiness is: 364.35197296737255
+
+
+Player #0's happiness is: 338.5600430406723
+Player #1's happiness is: 378.5412301113595
+Player #2's happiness is: 384.36256883398573
+Player #3's happiness is: 599.0311812273331
+Player #4's happiness is: 381.7444203913168
+Player #5's happiness is: 398.732213479929
+
+
+Player #0's happiness is: 345.7440165794062
+Player #1's happiness is: 377.6752211019351
+Player #2's happiness is: 411.3315271109486
+Player #3's happiness is: 605.5735286036459
+Player #4's happiness is: 422.91484822951384
+Player #5's happiness is: 505.8587759897149
+
+
+Player #0's happiness is: 362.47174126010646
+Player #1's happiness is: 339.5808797977928
+Player #2's happiness is: 413.62838852015955
+Player #3's happiness is: 578.1787507351821
+Player #4's happiness is: 388.42189221542276
+Player #5's happiness is: 390.21641501895726
+
+
+Player #0's happiness is: 418.7854841848937
+Player #1's happiness is: 435.9366237642872
+Player #2's happiness is: 506.127831614261
+Player #3's happiness is: 640.8221414352666
+Player #4's happiness is: 447.9945813752748
+Player #5's happiness is: 721.1057414960519
+
+
+Player #0's happiness is: 424.97879374041696
+Player #1's happiness is: 387.5994953637973
+Player #2's happiness is: 497.9212947961634
+Player #3's happiness is: 730.7978569516424
+Player #4's happiness is: 416.0982884506093
+Player #5's happiness is: 662.2523815805077
+
+
+Player #0's happiness is: 330.5038863452522
+Player #1's happiness is: 359.92386915511673
+Player #2's happiness is: 392.5134112210238
+Player #3's happiness is: 448.49025093008646
+Player #4's happiness is: 384.45278586156957
+Player #5's happiness is: 344.00553616354466
+
+
+Player #0's happiness is: 419.76242287567857
+Player #1's happiness is: 478.97648454488706
+Player #2's happiness is: 489.68931264136535
+Player #3's happiness is: 685.9768143243843
+Player #4's happiness is: 490.5766916016536
+Player #5's happiness is: 868.2676032556215
+
+
+Player #0's happiness is: 327.5143354442723
+Player #1's happiness is: 374.64051121167904
+Player #2's happiness is: 427.64639395819427
+Player #3's happiness is: 615.4122053535871
+Player #4's happiness is: 393.5379706830547
+Player #5's happiness is: 419.7419048849206
+
+
+Player #0's happiness is: 313.81432095685
+Player #1's happiness is: 373.82941837655574
+Player #2's happiness is: 414.0229934166731
+Player #3's happiness is: 450.16334849527266
+Player #4's happiness is: 358.01973267025755
+Player #5's happiness is: 385.15197219344833
+
+
+Player #0's happiness is: 305.2574294026377
+Player #1's happiness is: 316.454550962202
+Player #2's happiness is: 405.7226923864065
+Player #3's happiness is: 477.5142355960279
+Player #4's happiness is: 385.0574397155563
+Player #5's happiness is: 384.60105613236567
+
+
+Player #0's happiness is: 410.6795417612967
+Player #1's happiness is: 348.31691762381126
+Player #2's happiness is: 490.36529345328233
+Player #3's happiness is: 522.715215976683
+Player #4's happiness is: 359.43848172855223
+Player #5's happiness is: 690.3242370041584
+
+
+Player #0's happiness is: 755.9182266834323
+Player #1's happiness is: 505.4690032809126
+Player #2's happiness is: 367.98508178060854
+Player #3's happiness is: 456.38159016638156
+Player #4's happiness is: 428.4844893710625
+Player #5's happiness is: 428.7492459285809
+
+
+Player #0's happiness is: 514.1872028500769
+Player #1's happiness is: 473.9519233257059
+Player #2's happiness is: 486.0694935255824
+Player #3's happiness is: 672.7026564982742
+Player #4's happiness is: 451.32915636840505
+Player #5's happiness is: 799.9870957737066
+
+
+Player #0's happiness is: 383.3581843648924
+Player #1's happiness is: 332.49068311491726
+Player #2's happiness is: 380.08593784667073
+Player #3's happiness is: 548.1360735334297
+Player #4's happiness is: 331.9218995961027
+Player #5's happiness is: 428.38335971661706
+
+
+Player #0's happiness is: 347.43887354061224
+Player #1's happiness is: 365.3099357967402
+Player #2's happiness is: 351.9534225484731
+Player #3's happiness is: 528.1963706524344
+Player #4's happiness is: 381.71783808423856
+Player #5's happiness is: 361.1561919616705
+
+
+Player #0's happiness is: 549.9498262127534
+Player #1's happiness is: 447.9598462449949
+Player #2's happiness is: 459.5519437142523
+Player #3's happiness is: 694.850767540033
+Player #4's happiness is: 441.65684020684233
+Player #5's happiness is: 519.0591708662498
+
+
+Player #0's happiness is: 321.52076566516905
+Player #1's happiness is: 303.99809687199354
+Player #2's happiness is: 371.7177455554332
+Player #3's happiness is: 436.18705778274114
+Player #4's happiness is: 369.03214034486473
+Player #5's happiness is: 502.7826648496316
+
+
+Player #0's happiness is: 399.2680068879555
+Player #1's happiness is: 337.0643956639527
+Player #2's happiness is: 405.58111441835297
+Player #3's happiness is: 580.6409466827688
+Player #4's happiness is: 379.16596725572555
+Player #5's happiness is: 436.9438274428928
+
+
+Player #0's happiness is: 381.85637105585204
+Player #1's happiness is: 370.9014321296762
+Player #2's happiness is: 395.2269066898788
+Player #3's happiness is: 457.18911580640713
+Player #4's happiness is: 380.1088393428528
+Player #5's happiness is: 433.11818737081273
+
+
+Player #0's happiness is: 382.0792718756028
+Player #1's happiness is: 335.9351724962743
+Player #2's happiness is: 465.68425952540247
+Player #3's happiness is: 413.3689393804967
+Player #4's happiness is: 405.8175334598767
+Player #5's happiness is: 423.29719497482324
+
+
+Player #0's happiness is: 500.0023294311058
+Player #1's happiness is: 431.70110700121006
+Player #2's happiness is: 511.71453419755744
+Player #3's happiness is: 712.5251166764541
+Player #4's happiness is: 462.6307455078676
+Player #5's happiness is: 708.3078679198455
+
+
+Player #0's happiness is: 385.96259114128134
+Player #1's happiness is: 334.9524227263348
+Player #2's happiness is: 387.4960355695225
+Player #3's happiness is: 375.1662662430159
+Player #4's happiness is: 322.73720724110484
+Player #5's happiness is: 355.365642920234
+
+
+Player #0's happiness is: 459.38904516254127
+Player #1's happiness is: 389.5748843811939
+Player #2's happiness is: 437.4855957059815
+Player #3's happiness is: 569.2770567677211
+Player #4's happiness is: 467.8414710287308
+Player #5's happiness is: 754.1488238987631
+
+
+Player #0's happiness is: 348.6687167133813
+Player #1's happiness is: 324.54114815030687
+Player #2's happiness is: 390.69552907565634
+Player #3's happiness is: 519.4609532699922
+Player #4's happiness is: 352.99866436174915
+Player #5's happiness is: 430.142405193836
+
+
+Player #0's happiness is: 308.5862396213882
+Player #1's happiness is: 324.08057822034175
+Player #2's happiness is: 410.560426706039
+Player #3's happiness is: 370.5655120370524
+Player #4's happiness is: 350.7653749445699
+Player #5's happiness is: 382.6595871654748
+
+
+Player #0's happiness is: 450.51920474654787
+Player #1's happiness is: 377.84555112483497
+Player #2's happiness is: 383.8414699892101
+Player #3's happiness is: 541.9201753333853
+Player #4's happiness is: 396.8765177765297
+Player #5's happiness is: 511.6945533437953
+
+
+Player #0's happiness is: 425.67344899895556
+Player #1's happiness is: 345.4972099365789
+Player #2's happiness is: 487.8186033263813
+Player #3's happiness is: 404.9712038527806
+Player #4's happiness is: 444.0383798794916
+Player #5's happiness is: 631.0131241350031
+
+
+Player #0's happiness is: 400.1665708967347
+Player #1's happiness is: 327.81519879436917
+Player #2's happiness is: 344.65841588253465
+Player #3's happiness is: 374.74295286242926
+Player #4's happiness is: 310.25196853625346
+Player #5's happiness is: 401.80473362800035
+
+
+Player #0's happiness is: 363.1571653175922
+Player #1's happiness is: 383.8221438927252
+Player #2's happiness is: 384.9366344737489
+Player #3's happiness is: 553.5574291754074
+Player #4's happiness is: 395.0653973058443
+Player #5's happiness is: 405.102150081742
+
+
+Player #0's happiness is: 542.4573179456446
+Player #1's happiness is: 383.49044826178965
+Player #2's happiness is: 456.6053528066235
+Player #3's happiness is: 689.305549101221
+Player #4's happiness is: 437.202365519874
+Player #5's happiness is: 491.12689458140466
+
+
+Player #0's happiness is: 325.7986605781091
+Player #1's happiness is: 370.9145422830367
+Player #2's happiness is: 369.52015498257356
+Player #3's happiness is: 733.2455522832004
+Player #4's happiness is: 408.6762613292553
+Player #5's happiness is: 395.4593508523344
+
+
+Player #0's happiness is: 533.5879313965464
+Player #1's happiness is: 376.233319741579
+Player #2's happiness is: 453.7598744469898
+Player #3's happiness is: 645.3461673819987
+Player #4's happiness is: 450.93073923522195
+Player #5's happiness is: 486.73918295433816
+
+
+Player #0's happiness is: 311.45502354257803
+Player #1's happiness is: 328.843216299254
+Player #2's happiness is: 420.8734534279609
+Player #3's happiness is: 592.356959744588
+Player #4's happiness is: 408.2925013042849
+Player #5's happiness is: 417.16254884448404
+
+
+Player #0's happiness is: 438.20937526010994
+Player #1's happiness is: 367.096226397599
+Player #2's happiness is: 375.03659754736583
+Player #3's happiness is: 633.7703387238173
+Player #4's happiness is: 417.7679666888188
+Player #5's happiness is: 494.87354340092907
+
+
+Player #0's happiness is: 365.97371938559854
+Player #1's happiness is: 351.6124678027239
+Player #2's happiness is: 394.57668642645933
+Player #3's happiness is: 453.3990839456162
+Player #4's happiness is: 411.0460185564631
+Player #5's happiness is: 428.43528372892285
+
+
+Player #0's happiness is: 773.1946063036598
+Player #1's happiness is: 535.6994548546465
+Player #2's happiness is: 400.81068440261623
+Player #3's happiness is: 520.5712017053556
+Player #4's happiness is: 447.34993811304554
+Player #5's happiness is: 605.0249067594496
+
+
+Player #0's happiness is: 298.4309519601669
+Player #1's happiness is: 367.5452182772493
+Player #2's happiness is: 412.46003899006655
+Player #3's happiness is: 502.59751501700055
+Player #4's happiness is: 346.6397588058256
+Player #5's happiness is: 432.2123229713442
+
+
+Player #0's happiness is: 300.76121257407965
+Player #1's happiness is: 347.55539037435943
+Player #2's happiness is: 403.45837130119713
+Player #3's happiness is: 463.45074436564096
+Player #4's happiness is: 312.48690333747686
+Player #5's happiness is: 367.51241034332963
+
+
+Player #0's happiness is: 462.1520578547189
+Player #1's happiness is: 397.2609644270399
+Player #2's happiness is: 471.50961181839625
+Player #3's happiness is: 456.1879392674788
+Player #4's happiness is: 434.12378584569916
+Player #5's happiness is: 751.0022939320851
+
+
+Player #0's happiness is: 326.7941066397
+Player #1's happiness is: 299.47192904022154
+Player #2's happiness is: 351.88326642855793
+Player #3's happiness is: 350.96019966536585
+Player #4's happiness is: 366.96661900959106
+Player #5's happiness is: 396.0743017151549
+
+
+Player #0's happiness is: 517.1499797383391
+Player #1's happiness is: 374.3865037380197
+Player #2's happiness is: 384.93678784184385
+Player #3's happiness is: 452.4416575415121
+Player #4's happiness is: 395.9551287314845
+Player #5's happiness is: 499.66877726909354
+
+
+Player #0's happiness is: 429.8407269904909
+Player #1's happiness is: 356.6030416513209
+Player #2's happiness is: 380.48497763166483
+Player #3's happiness is: 511.5839273262569
+Player #4's happiness is: 399.8026185338265
+Player #5's happiness is: 412.7884131066537
+
+
+Player #0's happiness is: 342.1238842777583
+Player #1's happiness is: 351.501148497303
+Player #2's happiness is: 424.6233588037406
+Player #3's happiness is: 535.9927846431908
+Player #4's happiness is: 401.80011811819264
+Player #5's happiness is: 432.517952281036
+
+
+Player #0's happiness is: 304.83726845811503
+Player #1's happiness is: 319.6426131174587
+Player #2's happiness is: 381.62059638148827
+Player #3's happiness is: 390.2586125359464
+Player #4's happiness is: 269.7590770906899
+Player #5's happiness is: 344.50951945681226
+
+
+Player #0's happiness is: 391.63532448062335
+Player #1's happiness is: 314.9434393253041
+Player #2's happiness is: 373.6368591008132
+Player #3's happiness is: 406.6409529604033
+Player #4's happiness is: 425.4629752600176
+Player #5's happiness is: 565.9272349275298
+
+
+Player #0's happiness is: 495.81908678534006
+Player #1's happiness is: 522.5541315199902
+Player #2's happiness is: 531.5068289488488
+Player #3's happiness is: 895.9228732462471
+Player #4's happiness is: 471.38499107676205
+Player #5's happiness is: 814.3125343836444
+
+
+Player #0's happiness is: 658.0924418272747
+Player #1's happiness is: 478.22168689586715
+Player #2's happiness is: 399.9764897049879
+Player #3's happiness is: 446.33833656132435
+Player #4's happiness is: 411.8482800178334
+Player #5's happiness is: 510.47061682928745
+
+
+Player #0's happiness is: 380.64194839704703
+Player #1's happiness is: 313.2604348911839
+Player #2's happiness is: 407.1290266414727
+Player #3's happiness is: 382.6847909390667
+Player #4's happiness is: 367.3581826220304
+Player #5's happiness is: 370.8377101342785
+
+
+Player #0's happiness is: 411.4788353848513
+Player #1's happiness is: 359.7598677910473
+Player #2's happiness is: 464.63972239027316
+Player #3's happiness is: 527.8593658141992
+Player #4's happiness is: 357.8188266627138
+Player #5's happiness is: 461.0980527130403
+
+
+Player #0's happiness is: 309.33004693396526
+Player #1's happiness is: 334.7603161816146
+Player #2's happiness is: 398.20317843320214
+Player #3's happiness is: 461.8535770366271
+Player #4's happiness is: 395.4349788750999
+Player #5's happiness is: 441.2057298835416
+
+
+Player #0's happiness is: 341.9217808711188
+Player #1's happiness is: 272.26220176017216
+Player #2's happiness is: 383.5040134911641
+Player #3's happiness is: 480.7957093688103
+Player #4's happiness is: 351.51555413904697
+Player #5's happiness is: 428.9951155075665
+
+
+Player #0's happiness is: 335.7800994461782
+Player #1's happiness is: 354.18079463336323
+Player #2's happiness is: 385.02137112043545
+Player #3's happiness is: 431.4295605250071
+Player #4's happiness is: 393.59262443867954
+Player #5's happiness is: 423.8021398049645
+
+
+Player #0's happiness is: 396.0036291435577
+Player #1's happiness is: 357.08510638247776
+Player #2's happiness is: 370.66874572233866
+Player #3's happiness is: 454.162910667921
+Player #4's happiness is: 385.78131130609194
+Player #5's happiness is: 365.0699804637581
+
+
+Player #0's happiness is: 415.81672846270124
+Player #1's happiness is: 344.14619089520403
+Player #2's happiness is: 434.3353917167695
+Player #3's happiness is: 672.3392857859146
+Player #4's happiness is: 407.8718071395503
+Player #5's happiness is: 418.1839425843434
+
+
+Player #0's happiness is: 338.8479799740228
+Player #1's happiness is: 304.7862895710785
+Player #2's happiness is: 350.0775751302633
+Player #3's happiness is: 444.2394869136905
+Player #4's happiness is: 326.96662321598683
+Player #5's happiness is: 379.0732676262546
+
+
+Player #0's happiness is: 361.7866648833142
+Player #1's happiness is: 367.89786908248584
+Player #2's happiness is: 448.8206148650213
+Player #3's happiness is: 476.6369966654613
+Player #4's happiness is: 431.5011273015101
+Player #5's happiness is: 465.9412966917239
+
+
+Player #0's happiness is: 320.1096090713448
+Player #1's happiness is: 375.336185125994
+Player #2's happiness is: 433.2755671417334
+Player #3's happiness is: 505.3007463807834
+Player #4's happiness is: 411.5171552040823
+Player #5's happiness is: 385.8440559482659
+
+
+Player #0's happiness is: 414.38768667093984
+Player #1's happiness is: 377.3136959749306
+Player #2's happiness is: 395.99984052387674
+Player #3's happiness is: 625.3633651710329
+Player #4's happiness is: 390.43753341456465
+Player #5's happiness is: 464.4740757361617
+
+
+Player #0's happiness is: 486.67308170850185
+Player #1's happiness is: 368.9697001289382
+Player #2's happiness is: 397.1199999794552
+Player #3's happiness is: 633.4452303548512
+Player #4's happiness is: 383.41897728591545
+Player #5's happiness is: 482.9002097744211
+
+
+Player #0's happiness is: 468.4721700884878
+Player #1's happiness is: 377.7041428996445
+Player #2's happiness is: 421.69494254345807
+Player #3's happiness is: 501.73073845104176
+Player #4's happiness is: 414.34875918165665
+Player #5's happiness is: 746.3280372909754
+
+
+Player #0's happiness is: 306.2188577271254
+Player #1's happiness is: 391.3061759090258
+Player #2's happiness is: 433.3838664431563
+Player #3's happiness is: 524.182133446474
+Player #4's happiness is: 405.4671087208866
+Player #5's happiness is: 392.78253297848676
+
+
+Player #0's happiness is: 411.39241611735724
+Player #1's happiness is: 347.7973728263156
+Player #2's happiness is: 383.3152491812654
+Player #3's happiness is: 511.5294345983433
+Player #4's happiness is: 410.3080086132549
+Player #5's happiness is: 444.25801860112017
+
+
+Player #0's happiness is: 353.6629494314176
+Player #1's happiness is: 373.12726837964624
+Player #2's happiness is: 364.58623587043087
+Player #3's happiness is: 597.8093280536685
+Player #4's happiness is: 391.5418520266818
+Player #5's happiness is: 372.9331661316422
+
+
+Player #0's happiness is: 408.8662538818644
+Player #1's happiness is: 382.14218656410526
+Player #2's happiness is: 459.51293347061477
+Player #3's happiness is: 544.2005676044982
+Player #4's happiness is: 430.9123135710055
+Player #5's happiness is: 711.9467619857021
+
+
+Player #0's happiness is: 453.9923813510529
+Player #1's happiness is: 369.65482619330123
+Player #2's happiness is: 478.654008747004
+Player #3's happiness is: 532.7885516899795
+Player #4's happiness is: 392.44159704240724
+Player #5's happiness is: 647.2581444725291
+
+
+Player #0's happiness is: 476.88333992888977
+Player #1's happiness is: 356.833928423261
+Player #2's happiness is: 345.9366950246849
+Player #3's happiness is: 378.1961849242973
+Player #4's happiness is: 374.4612915127814
+Player #5's happiness is: 471.6105916257294
+
+
+Player #0's happiness is: 459.688217177924
+Player #1's happiness is: 336.12127330004677
+Player #2's happiness is: 406.70660559815025
+Player #3's happiness is: 413.2380819010385
+Player #4's happiness is: 404.00519616819713
+Player #5's happiness is: 441.5036077292359
+
+
+Player #0's happiness is: 398.5141797369748
+Player #1's happiness is: 428.220007169651
+Player #2's happiness is: 495.93256932671034
+Player #3's happiness is: 472.5973784389125
+Player #4's happiness is: 393.32001463172406
+Player #5's happiness is: 524.5435528616864
+
+
+Player #0's happiness is: 351.81201203770553
+Player #1's happiness is: 387.50444562644566
+Player #2's happiness is: 418.60551266398636
+Player #3's happiness is: 558.1556387027301
+Player #4's happiness is: 394.6598458543255
+Player #5's happiness is: 418.74873735322114
+
+
+Player #0's happiness is: 419.39106241474536
+Player #1's happiness is: 375.3005422947144
+Player #2's happiness is: 446.37167398283805
+Player #3's happiness is: 650.7791398350599
+Player #4's happiness is: 444.08648285405695
+Player #5's happiness is: 539.7774426085514
+
+
+Player #0's happiness is: 531.5326004941691
+Player #1's happiness is: 376.7401244746677
+Player #2's happiness is: 400.6298007147893
+Player #3's happiness is: 588.6247122205966
+Player #4's happiness is: 377.4065988412241
+Player #5's happiness is: 465.579068257946
+
+
+Player #0's happiness is: 312.9278235058973
+Player #1's happiness is: 365.2248683268417
+Player #2's happiness is: 414.77437792985745
+Player #3's happiness is: 486.16315538418644
+Player #4's happiness is: 364.71365024751145
+Player #5's happiness is: 386.6617763186972
+
+
+Player #0's happiness is: 283.14778992062156
+Player #1's happiness is: 311.4500863428183
+Player #2's happiness is: 299.9874127338933
+Player #3's happiness is: 333.72306261022425
+Player #4's happiness is: 335.97108080346436
+Player #5's happiness is: 321.6703013931658
+
+
+Player #0's happiness is: 431.34557600562596
+Player #1's happiness is: 381.73853725811784
+Player #2's happiness is: 439.9267229544404
+Player #3's happiness is: 465.4976670142004
+Player #4's happiness is: 418.6626061220752
+Player #5's happiness is: 420.22315322178497
+
+
+Player #0's happiness is: 338.470072960852
+Player #1's happiness is: 262.8769694624003
+Player #2's happiness is: 379.7762131417778
+Player #3's happiness is: 322.0737743259711
+Player #4's happiness is: 355.4712007122273
+Player #5's happiness is: 355.15853091316774
+
+
+Player #0's happiness is: 362.61497589954274
+Player #1's happiness is: 356.58229849280394
+Player #2's happiness is: 403.31645457616327
+Player #3's happiness is: 507.01389949781196
+Player #4's happiness is: 381.22447693266065
+Player #5's happiness is: 442.6757356495582
+
+
+Player #0's happiness is: 311.1048783001978
+Player #1's happiness is: 336.5405331178833
+Player #2's happiness is: 361.75639588283457
+Player #3's happiness is: 385.37748514258226
+Player #4's happiness is: 357.25268300735434
+Player #5's happiness is: 362.6682530642034
+
+
+Player #0's happiness is: 324.51438391543246
+Player #1's happiness is: 306.99965496705335
+Player #2's happiness is: 389.4374644368261
+Player #3's happiness is: 557.0739686719518
+Player #4's happiness is: 367.2295502722806
+Player #5's happiness is: 412.68957537674055
+
+
+Player #0's happiness is: 412.9364529673236
+Player #1's happiness is: 357.8765720069409
+Player #2's happiness is: 422.3194010177687
+Player #3's happiness is: 582.3917081064737
+Player #4's happiness is: 408.0675252743215
+Player #5's happiness is: 494.1800894713856
+
+
+Player #0's happiness is: 319.05373893425644
+Player #1's happiness is: 316.3716057739853
+Player #2's happiness is: 410.50373396276166
+Player #3's happiness is: 451.8724577208891
+Player #4's happiness is: 406.0526242212504
+Player #5's happiness is: 420.3538507603294
+
+
+Player #0's happiness is: 323.5264044186391
+Player #1's happiness is: 303.62727168346703
+Player #2's happiness is: 365.64341385734144
+Player #3's happiness is: 448.41112861686554
+Player #4's happiness is: 362.683140809228
+Player #5's happiness is: 491.2096583402192
+
+
+Player #0's happiness is: 283.84756361363577
+Player #1's happiness is: 294.73468473047956
+Player #2's happiness is: 296.97703025307084
+Player #3's happiness is: 331.2940047452388
+Player #4's happiness is: 334.43401117751034
+Player #5's happiness is: 312.362035100993
+
+
+Player #0's happiness is: 313.24329898684266
+Player #1's happiness is: 288.1899434819242
+Player #2's happiness is: 294.5836226141196
+Player #3's happiness is: 345.92303613720577
+Player #4's happiness is: 326.7903085005181
+Player #5's happiness is: 418.48325396567134
+
+
+Player #0's happiness is: 297.08617360556065
+Player #1's happiness is: 310.93871787028957
+Player #2's happiness is: 412.45650722545105
+Player #3's happiness is: 489.643834610191
+Player #4's happiness is: 396.53727670465355
+Player #5's happiness is: 415.97850260410235
+
+
+Player #0's happiness is: 433.51127429187477
+Player #1's happiness is: 360.69761677578094
+Player #2's happiness is: 425.61966025263064
+Player #3's happiness is: 669.5795927311365
+Player #4's happiness is: 409.05547710249056
+Player #5's happiness is: 474.71782177937973
+
+
+Player #0's happiness is: 362.7519087991583
+Player #1's happiness is: 372.04500401637574
+Player #2's happiness is: 413.280938883016
+Player #3's happiness is: 434.40318322327437
+Player #4's happiness is: 404.3736168098197
+Player #5's happiness is: 404.06063197502215
+
+
+Player #0's happiness is: 404.46845377085015
+Player #1's happiness is: 332.5803020331392
+Player #2's happiness is: 411.0650694430285
+Player #3's happiness is: 482.2266588736567
+Player #4's happiness is: 321.7833905911894
+Player #5's happiness is: 454.6351367097525
+
+
+Player #0's happiness is: 303.26043179814167
+Player #1's happiness is: 311.82943756945656
+Player #2's happiness is: 410.8952590259644
+Player #3's happiness is: 394.5764861338502
+Player #4's happiness is: 392.67972021931996
+Player #5's happiness is: 389.57504911773185
+
+
+Player #0's happiness is: 381.0090862270099
+Player #1's happiness is: 325.239572389039
+Player #2's happiness is: 424.6103858161666
+Player #3's happiness is: 388.4160157838611
+Player #4's happiness is: 351.4337840513681
+Player #5's happiness is: 406.7735633197376
+
+
+Player #0's happiness is: 337.19080613657314
+Player #1's happiness is: 304.3194214279872
+Player #2's happiness is: 339.71406619268873
+Player #3's happiness is: 394.5614229329657
+Player #4's happiness is: 284.26288490119134
+Player #5's happiness is: 323.69187780405855
+
+
+Player #0's happiness is: 360.10820854971263
+Player #1's happiness is: 289.05330682874325
+Player #2's happiness is: 350.61174058870847
+Player #3's happiness is: 352.45533140372856
+Player #4's happiness is: 333.8386010448463
+Player #5's happiness is: 385.726711257326
+
+
+Player #0's happiness is: 313.0046826306822
+Player #1's happiness is: 329.0827908963439
+Player #2's happiness is: 431.7369656607986
+Player #3's happiness is: 548.7389191151501
+Player #4's happiness is: 416.54832354126626
+Player #5's happiness is: 449.9748418185598
+
+
+Player #0's happiness is: 364.66351049690275
+Player #1's happiness is: 342.15083808768964
+Player #2's happiness is: 401.01973960439216
+Player #3's happiness is: 403.4683206500298
+Player #4's happiness is: 376.5950725455755
+Player #5's happiness is: 399.84800828388495
+
+
+Player #0's happiness is: 343.9588353276205
+Player #1's happiness is: 352.1608981201122
+Player #2's happiness is: 392.61367520909266
+Player #3's happiness is: 520.7713400142169
+Player #4's happiness is: 398.78871493693373
+Player #5's happiness is: 427.6371902558061
+
+
+Player #0's happiness is: 435.49618486584706
+Player #1's happiness is: 418.3628813021229
+Player #2's happiness is: 382.5970586118905
+Player #3's happiness is: 674.0000277291608
+Player #4's happiness is: 416.55454938965875
+Player #5's happiness is: 493.2783882862243
+
+
+Player #0's happiness is: 376.0984667709256
+Player #1's happiness is: 336.9322093814205
+Player #2's happiness is: 450.0134982244124
+Player #3's happiness is: 724.6675214102025
+Player #4's happiness is: 404.72380609767436
+Player #5's happiness is: 480.26818090682286
+
+
+Player #0's happiness is: 347.5118696458901
+Player #1's happiness is: 319.87141502001447
+Player #2's happiness is: 397.6414887547693
+Player #3's happiness is: 423.1171230741278
+Player #4's happiness is: 364.82859369256016
+Player #5's happiness is: 371.73366141580993
+
+
+Player #0's happiness is: 530.595430220083
+Player #1's happiness is: 416.17228804871604
+Player #2's happiness is: 504.0717282772703
+Player #3's happiness is: 640.8885354273754
+Player #4's happiness is: 511.4629728695265
+Player #5's happiness is: 865.2998659588519
+
+
+Player #0's happiness is: 403.5296966326032
+Player #1's happiness is: 303.7029538328426
+Player #2's happiness is: 354.0456788998601
+Player #3's happiness is: 381.56848829987473
+Player #4's happiness is: 367.2158506954749
+Player #5's happiness is: 396.9990276159547
+
+
+Player #0's happiness is: 481.88964758597467
+Player #1's happiness is: 355.4189595474443
+Player #2's happiness is: 489.5098604162647
+Player #3's happiness is: 401.71448356594163
+Player #4's happiness is: 427.22590868087343
+Player #5's happiness is: 451.7877434631754
+
+
+Player #0's happiness is: 311.11818485186905
+Player #1's happiness is: 325.97059747011764
+Player #2's happiness is: 373.6452648832284
+Player #3's happiness is: 355.2284663809597
+Player #4's happiness is: 361.9475889021472
+Player #5's happiness is: 379.32794816174123
+
+
+Player #0's happiness is: 475.10787485802393
+Player #1's happiness is: 372.30395208311165
+Player #2's happiness is: 426.6523930157789
+Player #3's happiness is: 541.9448787416591
+Player #4's happiness is: 398.31195564561517
+Player #5's happiness is: 689.2924934187981
+
+
+Player #0's happiness is: 461.45448628223016
+Player #1's happiness is: 377.89814734009065
+Player #2's happiness is: 411.9720989485148
+Player #3's happiness is: 616.8382035449735
+Player #4's happiness is: 389.46448152054745
+Player #5's happiness is: 629.561106973571
+
+
+Player #0's happiness is: 419.8944299838256
+Player #1's happiness is: 371.9046482111433
+Player #2's happiness is: 480.2875313359435
+Player #3's happiness is: 523.7431914653007
+Player #4's happiness is: 397.2304082153836
+Player #5's happiness is: 673.5271967491875
+
+
+Player #0's happiness is: 363.79951125748
+Player #1's happiness is: 361.6916392218754
+Player #2's happiness is: 474.1620205871744
+Player #3's happiness is: 381.74455453977976
+Player #4's happiness is: 378.33077121051696
+Player #5's happiness is: 472.8677923054755
+
+
+Player #0's happiness is: 710.999091052657
+Player #1's happiness is: 437.29215195216284
+Player #2's happiness is: 379.76836834871426
+Player #3's happiness is: 465.1903424348285
+Player #4's happiness is: 404.46412165663065
+Player #5's happiness is: 485.9928269653151
+
+
+Player #0's happiness is: 358.09759892529223
+Player #1's happiness is: 301.38221805500723
+Player #2's happiness is: 402.14964672847884
+Player #3's happiness is: 539.3069264114656
+Player #4's happiness is: 347.2252423598517
+Player #5's happiness is: 416.2160126277867
+
+
+Player #0's happiness is: 314.8651606721919
+Player #1's happiness is: 305.66676857218937
+Player #2's happiness is: 365.6182869546776
+Player #3's happiness is: 392.28928069073515
+Player #4's happiness is: 343.59882646247263
+Player #5's happiness is: 415.60392716580486
+
+
+Player #0's happiness is: 460.63389246905865
+Player #1's happiness is: 389.3094113455486
+Player #2's happiness is: 410.825151613841
+Player #3's happiness is: 774.8276425995801
+Player #4's happiness is: 413.0405653584873
+Player #5's happiness is: 492.85069927636397
+
+
+Player #0's happiness is: 723.5782249011174
+Player #1's happiness is: 512.5690682962965
+Player #2's happiness is: 404.27232139346074
+Player #3's happiness is: 456.5692912476088
+Player #4's happiness is: 450.9651068174293
+Player #5's happiness is: 442.9077911588596
+
+
+Player #0's happiness is: 318.4564877458332
+Player #1's happiness is: 354.80950998508956
+Player #2's happiness is: 417.03153766269577
+Player #3's happiness is: 469.0633121862878
+Player #4's happiness is: 375.02548207521875
+Player #5's happiness is: 422.6699941296107
+
+
+Player #0's happiness is: 322.1660616608193
+Player #1's happiness is: 360.1662919853185
+Player #2's happiness is: 425.0276322757318
+Player #3's happiness is: 497.1242166569069
+Player #4's happiness is: 352.87743028764413
+Player #5's happiness is: 442.05191818380365
+
+
+Player #0's happiness is: 376.08229490554055
+Player #1's happiness is: 338.74882228934507
+Player #2's happiness is: 485.10810400197715
+Player #3's happiness is: 609.2096638262874
+Player #4's happiness is: 399.78946529911013
+Player #5's happiness is: 437.78995455708014
+
+
+Player #0's happiness is: 325.5508174373087
+Player #1's happiness is: 303.3867594398964
+Player #2's happiness is: 417.07746990090516
+Player #3's happiness is: 458.3041830049707
+Player #4's happiness is: 401.0815301100241
+Player #5's happiness is: 441.07422747736496
+
+
+Player #0's happiness is: 462.8095162979796
+Player #1's happiness is: 416.92908303644435
+Player #2's happiness is: 491.923308857299
+Player #3's happiness is: 704.4058962727922
+Player #4's happiness is: 442.36919720290217
+Player #5's happiness is: 644.3315373171747
+
+
+Player #0's happiness is: 401.561064012571
+Player #1's happiness is: 374.59762240943786
+Player #2's happiness is: 450.5519826302666
+Player #3's happiness is: 556.9090497076592
+Player #4's happiness is: 441.6381587611779
+Player #5's happiness is: 736.7368728262475
+
+
+Player #0's happiness is: 317.91169249850617
+Player #1's happiness is: 316.8067718231979
+Player #2's happiness is: 409.2458948671599
+Player #3's happiness is: 494.61223797035234
+Player #4's happiness is: 353.7956472137681
+Player #5's happiness is: 443.8338287316192
+
+
+Player #0's happiness is: 726.0706871023788
+Player #1's happiness is: 466.4451129438509
+Player #2's happiness is: 490.49984105804424
+Player #3's happiness is: 624.0930492574544
+Player #4's happiness is: 430.12280214116043
+Player #5's happiness is: 587.1047969703798
+
+
+Player #0's happiness is: 519.5161183698956
+Player #1's happiness is: 462.5421421924532
+Player #2's happiness is: 379.58204703947126
+Player #3's happiness is: 491.26180632933784
+Player #4's happiness is: 420.4457865583189
+Player #5's happiness is: 498.1794233670169
+
+
+Player #0's happiness is: 422.3583554035131
+Player #1's happiness is: 350.1504374834918
+Player #2's happiness is: 419.7844177930323
+Player #3's happiness is: 670.9954096239001
+Player #4's happiness is: 413.18136006243844
+Player #5's happiness is: 536.4999951452073
+
+
+Player #0's happiness is: 461.9153319985502
+Player #1's happiness is: 335.30822367945945
+Player #2's happiness is: 403.2445571381131
+Player #3's happiness is: 611.9013355923826
+Player #4's happiness is: 418.6087310232732
+Player #5's happiness is: 464.81133299342093
+
+
+Player #0's happiness is: 461.8295998856405
+Player #1's happiness is: 346.8475607257003
+Player #2's happiness is: 450.660727247815
+Player #3's happiness is: 453.885664637884
+Player #4's happiness is: 419.04113407843454
+Player #5's happiness is: 463.82418683535894
+
+
+Player #0's happiness is: 507.1545943785229
+Player #1's happiness is: 407.94047227803054
+Player #2's happiness is: 414.101061659691
+Player #3's happiness is: 478.1373945801572
+Player #4's happiness is: 381.79771607527516
+Player #5's happiness is: 662.9414509362722
+
+
+Player #0's happiness is: 370.61949229088214
+Player #1's happiness is: 373.6767265349969
+Player #2's happiness is: 438.31458012725943
+Player #3's happiness is: 608.6215747886407
+Player #4's happiness is: 410.1748992954625
+Player #5's happiness is: 479.51271188298585
+
+
+Player #0's happiness is: 478.98505294665495
+Player #1's happiness is: 390.7114771329532
+Player #2's happiness is: 370.74736033201407
+Player #3's happiness is: 615.3729802529919
+Player #4's happiness is: 389.86531802087313
+Player #5's happiness is: 456.04524119523614
+
+
+Player #0's happiness is: 517.6215827804176
+Player #1's happiness is: 401.5475820020181
+Player #2's happiness is: 426.431008458429
+Player #3's happiness is: 551.8643516215093
+Player #4's happiness is: 425.35473341686225
+Player #5's happiness is: 488.95256457628795
+
+
+Player #0's happiness is: 341.5956545610076
+Player #1's happiness is: 370.6810526313741
+Player #2's happiness is: 492.1830710163513
+Player #3's happiness is: 673.2538555884897
+Player #4's happiness is: 436.95678722829257
+Player #5's happiness is: 461.8156251833765
+
+
+Player #0's happiness is: 465.3015714353231
+Player #1's happiness is: 363.27812033943076
+Player #2's happiness is: 425.55969677663313
+Player #3's happiness is: 491.09967017225324
+Player #4's happiness is: 423.8847760003998
+Player #5's happiness is: 459.68345301922375
+
+
+Player #0's happiness is: 406.2047559440476
+Player #1's happiness is: 328.8180844585528
+Player #2's happiness is: 383.2279069004525
+Player #3's happiness is: 414.18843423948897
+Player #4's happiness is: 385.28734754049316
+Player #5's happiness is: 361.9593714991734
+
+
+Player #0's happiness is: 311.0178744990243
+Player #1's happiness is: 366.79944318168896
+Player #2's happiness is: 378.1680526738034
+Player #3's happiness is: 606.8351793292319
+Player #4's happiness is: 377.90264539457064
+Player #5's happiness is: 396.7054325348015
+
+
+Player #0's happiness is: 509.4382835916078
+Player #1's happiness is: 417.03749612849225
+Player #2's happiness is: 465.1945356942436
+Player #3's happiness is: 654.4973664361926
+Player #4's happiness is: 442.675708592009
+Player #5's happiness is: 492.0250735328917
+
+
+Player #0's happiness is: 321.26432508823393
+Player #1's happiness is: 322.3217849043915
+Player #2's happiness is: 463.3267404212618
+Player #3's happiness is: 410.56864918598615
+Player #4's happiness is: 362.56076858329357
+Player #5's happiness is: 391.8122081808657
+
+
+Player #0's happiness is: 570.6496032394213
+Player #1's happiness is: 457.82987013236544
+Player #2's happiness is: 389.31258841622076
+Player #3's happiness is: 416.81104586425766
+Player #4's happiness is: 403.93306572043525
+Player #5's happiness is: 480.82705263790865
+
+
+Player #0's happiness is: 604.8473241083942
+Player #1's happiness is: 472.8585241639986
+Player #2's happiness is: 371.04803541880005
+Player #3's happiness is: 481.8255526586155
+Player #4's happiness is: 393.7524758152812
+Player #5's happiness is: 463.85212063655075
+
+
+Player #0's happiness is: 481.69024355019815
+Player #1's happiness is: 439.044881067435
+Player #2's happiness is: 435.7283014480538
+Player #3's happiness is: 632.4107493178194
+Player #4's happiness is: 455.5620553192882
+Player #5's happiness is: 748.7464872774043
+
+
+Player #0's happiness is: 472.24065312926143
+Player #1's happiness is: 382.9769065898801
+Player #2's happiness is: 379.13324235194773
+Player #3's happiness is: 584.7205565682817
+Player #4's happiness is: 420.9979924219832
+Player #5's happiness is: 470.4638073374281
+
+
+Player #0's happiness is: 387.6407549637261
+Player #1's happiness is: 312.4121582566801
+Player #2's happiness is: 410.1188923290964
+Player #3's happiness is: 463.07015228761503
+Player #4's happiness is: 400.24182074365467
+Player #5's happiness is: 504.07017288865984
+
+
+Player #0's happiness is: 415.05460368059255
+Player #1's happiness is: 349.08822937305905
+Player #2's happiness is: 353.0003679665913
+Player #3's happiness is: 472.4301804293708
+Player #4's happiness is: 354.9068196228686
+Player #5's happiness is: 452.6892430484014
+
+
+Player #0's happiness is: 539.2765090314925
+Player #1's happiness is: 458.09612316911864
+Player #2's happiness is: 419.62137807783813
+Player #3's happiness is: 496.83179293245144
+Player #4's happiness is: 369.08799307068966
+Player #5's happiness is: 490.69192458665646
+
+
+Player #0's happiness is: 345.13635601128533
+Player #1's happiness is: 304.2672858030504
+Player #2's happiness is: 441.1160783359894
+Player #3's happiness is: 501.57772333917376
+Player #4's happiness is: 374.200831388147
+Player #5's happiness is: 346.1399661112837
+
+
+Player #0's happiness is: 886.1235232725471
+Player #1's happiness is: 554.2942283693346
+Player #2's happiness is: 480.31226565280804
+Player #3's happiness is: 537.9437312085645
+Player #4's happiness is: 536.2845961618871
+Player #5's happiness is: 773.4665280184995
+
+
+Player #0's happiness is: 490.8263188619443
+Player #1's happiness is: 490.70590315876194
+Player #2's happiness is: 469.2258577401192
+Player #3's happiness is: 769.1625728220731
+Player #4's happiness is: 495.0317749373496
+Player #5's happiness is: 753.7942266207849
+
+
+Player #0's happiness is: 453.61078493014156
+Player #1's happiness is: 359.1081461904733
+Player #2's happiness is: 407.20563243667914
+Player #3's happiness is: 634.4414560752831
+Player #4's happiness is: 394.91807521994053
+Player #5's happiness is: 471.6398464909448
+
+
+Player #0's happiness is: 347.1998836888655
+Player #1's happiness is: 384.148321818246
+Player #2's happiness is: 448.8127565817377
+Player #3's happiness is: 545.7822934439732
+Player #4's happiness is: 389.7702747155506
+Player #5's happiness is: 435.2488074593129
+
+
+Player #0's happiness is: 541.7746716283601
+Player #1's happiness is: 432.25134441246087
+Player #2's happiness is: 450.81218864319385
+Player #3's happiness is: 707.4916481072283
+Player #4's happiness is: 440.69295520904365
+Player #5's happiness is: 667.3868281086641
+
+
+Player #0's happiness is: 540.2270685290514
+Player #1's happiness is: 478.4238850313226
+Player #2's happiness is: 404.80049027019396
+Player #3's happiness is: 487.35764103689655
+Player #4's happiness is: 404.3869697682685
+Player #5's happiness is: 529.5173274829917
+
+
+Player #0's happiness is: 299.8885340262865
+Player #1's happiness is: 334.56973751038834
+Player #2's happiness is: 330.8901506355828
+Player #3's happiness is: 341.78410521114665
+Player #4's happiness is: 348.7190709623493
+Player #5's happiness is: 328.4899529170902
+
+
+Player #0's happiness is: 532.6464770058402
+Player #1's happiness is: 380.4031987227604
+Player #2's happiness is: 431.91767790412945
+Player #3's happiness is: 395.25933075332637
+Player #4's happiness is: 394.28677913870877
+Player #5's happiness is: 483.7002443660001
+
+
+Player #0's happiness is: 351.44494778107924
+Player #1's happiness is: 379.91562829622706
+Player #2's happiness is: 502.31646757867725
+Player #3's happiness is: 696.169916477995
+Player #4's happiness is: 393.3705641584121
+Player #5's happiness is: 432.1376865919668
+
+
+Player #0's happiness is: 435.59102118148644
+Player #1's happiness is: 471.22137456124716
+Player #2's happiness is: 462.1079949406341
+Player #3's happiness is: 723.5399291070048
+Player #4's happiness is: 447.7227163089846
+Player #5's happiness is: 767.0504508957534
+
+
+Player #0's happiness is: 330.7832868443086
+Player #1's happiness is: 297.35937812877484
+Player #2's happiness is: 405.4817706227914
+Player #3's happiness is: 402.815442112026
+Player #4's happiness is: 345.26485738319263
+Player #5's happiness is: 425.4853606326147
+
+
+Player #0's happiness is: 421.63368457451634
+Player #1's happiness is: 331.73993206993214
+Player #2's happiness is: 357.1964365084842
+Player #3's happiness is: 386.2235150164107
+Player #4's happiness is: 358.93487051708416
+Player #5's happiness is: 431.133215172214
+
+
+Player #0's happiness is: 310.633349875572
+Player #1's happiness is: 312.6583733843997
+Player #2's happiness is: 391.21851531163895
+Player #3's happiness is: 466.258021093762
+Player #4's happiness is: 397.15710617637126
+Player #5's happiness is: 413.366034951884
+
+
+Player #0's happiness is: 722.3648653882574
+Player #1's happiness is: 502.66984339775263
+Player #2's happiness is: 435.49449087962483
+Player #3's happiness is: 685.0820779247845
+Player #4's happiness is: 470.92245631835317
+Player #5's happiness is: 535.7665582298537
+
+
+Player #0's happiness is: 587.7752705290895
+Player #1's happiness is: 455.74258114891796
+Player #2's happiness is: 401.2754429004184
+Player #3's happiness is: 561.898149446903
+Player #4's happiness is: 403.3897187914514
+Player #5's happiness is: 484.73959853972366
+
+
+Player #0's happiness is: 362.7612023683654
+Player #1's happiness is: 386.40133438026464
+Player #2's happiness is: 485.4286914141994
+Player #3's happiness is: 514.8536054822284
+Player #4's happiness is: 350.2312580485185
+Player #5's happiness is: 490.57484192591687
+
+
+Player #0's happiness is: 318.12778249817916
+Player #1's happiness is: 338.85357181683116
+Player #2's happiness is: 405.03364121578977
+Player #3's happiness is: 573.3787031061412
+Player #4's happiness is: 370.9682465725309
+Player #5's happiness is: 359.2579287644353
+
+
+Player #0's happiness is: 333.58700188730666
+Player #1's happiness is: 317.3133970963314
+Player #2's happiness is: 360.08127530267257
+Player #3's happiness is: 364.60160342078433
+Player #4's happiness is: 359.05202048577723
+Player #5's happiness is: 342.14958645123795
+
+
+Player #0's happiness is: 461.05427991814406
+Player #1's happiness is: 348.12608514207045
+Player #2's happiness is: 418.32909161439113
+Player #3's happiness is: 541.9688854464467
+Player #4's happiness is: 393.1558857134111
+Player #5's happiness is: 492.6574408999496
+
+
+Player #0's happiness is: 322.72117270648124
+Player #1's happiness is: 331.2218743853269
+Player #2's happiness is: 423.1032524235127
+Player #3's happiness is: 456.5273459335019
+Player #4's happiness is: 411.6117486665985
+Player #5's happiness is: 448.11860055260166
+
+
+Player #0's happiness is: 476.01714182165523
+Player #1's happiness is: 392.103504811452
+Player #2's happiness is: 520.0908042204791
+Player #3's happiness is: 716.7116394998993
+Player #4's happiness is: 457.46576254087756
+Player #5's happiness is: 627.730489028763
+
+
+Player #0's happiness is: 563.9051150108771
+Player #1's happiness is: 455.34920964285686
+Player #2's happiness is: 514.0076242804364
+Player #3's happiness is: 495.42555161699715
+Player #4's happiness is: 475.6060990999407
+Player #5's happiness is: 743.1906010692685
+
+
+Player #0's happiness is: 327.22633520205153
+Player #1's happiness is: 345.11221627807004
+Player #2's happiness is: 432.94383763392057
+Player #3's happiness is: 518.7746470329193
+Player #4's happiness is: 382.0287091710477
+Player #5's happiness is: 482.8087646358331
+
+
+Player #0's happiness is: 428.187223571303
+Player #1's happiness is: 383.8011720374093
+Player #2's happiness is: 411.23096127752046
+Player #3's happiness is: 410.59286750769877
+Player #4's happiness is: 377.3963308167031
+Player #5's happiness is: 342.59596916474186
+
+
+Player #0's happiness is: 334.7961790372178
+Player #1's happiness is: 365.8711955192934
+Player #2's happiness is: 379.54537929834737
+Player #3's happiness is: 555.8316054975853
+Player #4's happiness is: 415.87125648145457
+Player #5's happiness is: 418.02969439477596
+
+
+Player #0's happiness is: 311.09975049418125
+Player #1's happiness is: 284.12253786158885
+Player #2's happiness is: 393.9901165011081
+Player #3's happiness is: 488.96014456234843
+Player #4's happiness is: 354.7610831484993
+Player #5's happiness is: 378.422419233735
+
+
+Player #0's happiness is: 697.0045860720256
+Player #1's happiness is: 532.0335068987233
+Player #2's happiness is: 438.6566961095804
+Player #3's happiness is: 533.7988907055646
+Player #4's happiness is: 458.07369702285166
+Player #5's happiness is: 545.7282020126923
+
+
+Player #0's happiness is: 392.6332624212731
+Player #1's happiness is: 297.60259485263913
+Player #2's happiness is: 343.9849312054762
+Player #3's happiness is: 376.86299868618687
+Player #4's happiness is: 354.128988505846
+Player #5's happiness is: 392.2964162980277
+
+
+Player #0's happiness is: 373.62074187241296
+Player #1's happiness is: 326.39058770767406
+Player #2's happiness is: 393.24233935738516
+Player #3's happiness is: 564.8399131120161
+Player #4's happiness is: 398.5716193654257
+Player #5's happiness is: 432.4951668865755
+
+
+Player #0's happiness is: 526.0434450922992
+Player #1's happiness is: 373.60024978860724
+Player #2's happiness is: 436.998083898808
+Player #3's happiness is: 524.7487024531954
+Player #4's happiness is: 435.9948883202113
+Player #5's happiness is: 622.3039274652549
+
+
+Player #0's happiness is: 334.3477086360412
+Player #1's happiness is: 356.976748051605
+Player #2's happiness is: 466.1240442280181
+Player #3's happiness is: 565.3751805350895
+Player #4's happiness is: 396.25764484800254
+Player #5's happiness is: 499.6708671435879
+
+
+Player #0's happiness is: 644.6195699136715
+Player #1's happiness is: 471.7157463561793
+Player #2's happiness is: 402.627609346691
+Player #3's happiness is: 624.3740756404277
+Player #4's happiness is: 442.9343220090941
+Player #5's happiness is: 505.8522915089306
+
+
+Player #0's happiness is: 449.2116255211289
+Player #1's happiness is: 442.4550530224274
+Player #2's happiness is: 433.97413220168016
+Player #3's happiness is: 561.8631402334228
+Player #4's happiness is: 433.7380199225248
+Player #5's happiness is: 671.1522867317635
+
+
+Player #0's happiness is: 514.9569359280645
+Player #1's happiness is: 408.18346654818185
+Player #2's happiness is: 483.1040720029647
+Player #3's happiness is: 597.6239669968795
+Player #4's happiness is: 488.231466097868
+Player #5's happiness is: 509.5613713684362
+
+
+Player #0's happiness is: 499.9056331480797
+Player #1's happiness is: 420.89731078494935
+Player #2's happiness is: 455.0902445990246
+Player #3's happiness is: 725.5640971606283
+Player #4's happiness is: 428.33881088096837
+Player #5's happiness is: 535.6101557740154
+
+
+Player #0's happiness is: 322.1536148960248
+Player #1's happiness is: 367.40267494214766
+Player #2's happiness is: 425.0621807123857
+Player #3's happiness is: 381.90959349916227
+Player #4's happiness is: 339.8422017987567
+Player #5's happiness is: 457.5690728945319
+
+
+Player #0's happiness is: 405.26315582735106
+Player #1's happiness is: 324.8617993252424
+Player #2's happiness is: 386.85750555202753
+Player #3's happiness is: 364.060890575592
+Player #4's happiness is: 344.74394353396644
+Player #5's happiness is: 419.5741705227856
+
+
+Player #0's happiness is: 455.79971150376184
+Player #1's happiness is: 360.84137415378814
+Player #2's happiness is: 423.640687683047
+Player #3's happiness is: 523.5205293042205
+Player #4's happiness is: 410.06409059237535
+Player #5's happiness is: 439.85258386789917
+
+
+Player #0's happiness is: 708.2084471331842
+Player #1's happiness is: 478.46330832187743
+Player #2's happiness is: 421.63584126338634
+Player #3's happiness is: 403.99237784932916
+Player #4's happiness is: 398.54771893297396
+Player #5's happiness is: 385.403805361202
+
+
+Player #0's happiness is: 356.63028090432607
+Player #1's happiness is: 321.4782592755233
+Player #2's happiness is: 437.57367581568815
+Player #3's happiness is: 534.0288826190983
+Player #4's happiness is: 426.0325885514883
+Player #5's happiness is: 498.77514782285994
+
+
+Player #0's happiness is: 482.1543544837049
+Player #1's happiness is: 398.3044962230739
+Player #2's happiness is: 388.16271368713075
+Player #3's happiness is: 547.7477320871546
+Player #4's happiness is: 438.965424429638
+Player #5's happiness is: 472.12038449962904
+
+
+Player #0's happiness is: 272.6340007312059
+Player #1's happiness is: 294.19759842764233
+Player #2's happiness is: 348.22439624222693
+Player #3's happiness is: 399.7273438156008
+Player #4's happiness is: 364.0337890014687
+Player #5's happiness is: 337.02622503295083
+
+
+Player #0's happiness is: 319.37810285544833
+Player #1's happiness is: 317.6260672230565
+Player #2's happiness is: 412.32383789745006
+Player #3's happiness is: 436.1087719220127
+Player #4's happiness is: 384.14050046551495
+Player #5's happiness is: 390.54955440517836
+
+
+Player #0's happiness is: 507.98441030394577
+Player #1's happiness is: 393.077395158864
+Player #2's happiness is: 405.23154162750495
+Player #3's happiness is: 596.0084801754845
+Player #4's happiness is: 416.9953622605267
+Player #5's happiness is: 434.83138511142
+
+
+Player #0's happiness is: 322.4397209884188
+Player #1's happiness is: 346.1897144416821
+Player #2's happiness is: 353.15269802968476
+Player #3's happiness is: 444.5560411029297
+Player #4's happiness is: 379.36328337944065
+Player #5's happiness is: 371.9044714283633
+
+
+Player #0's happiness is: 405.8489157317578
+Player #1's happiness is: 368.2860634051451
+Player #2's happiness is: 438.3314341137668
+Player #3's happiness is: 767.688353371979
+Player #4's happiness is: 399.57841884216566
+Player #5's happiness is: 472.80619502526054
+
+
+Player #0's happiness is: 436.9772820651352
+Player #1's happiness is: 336.22497053880556
+Player #2's happiness is: 413.0069566739444
+Player #3's happiness is: 532.3044710577894
+Player #4's happiness is: 411.718823505279
+Player #5's happiness is: 456.16630801541555
+
+
+Player #0's happiness is: 507.8603172665147
+Player #1's happiness is: 496.43696220135246
+Player #2's happiness is: 459.170967849371
+Player #3's happiness is: 714.4618871656687
+Player #4's happiness is: 442.50936457157565
+Player #5's happiness is: 582.6996422314173
+
+
+Player #0's happiness is: 498.22569575464684
+Player #1's happiness is: 386.7876287295676
+Player #2's happiness is: 462.544840990716
+Player #3's happiness is: 538.273826499686
+Player #4's happiness is: 404.9320813650937
+Player #5's happiness is: 593.1853400303007
+
+
+Player #0's happiness is: 300.7817843288226
+Player #1's happiness is: 318.26335992137933
+Player #2's happiness is: 396.312648749848
+Player #3's happiness is: 476.54246621787814
+Player #4's happiness is: 390.3760354221174
+Player #5's happiness is: 385.49805250848954
+
+
+Player #0's happiness is: 289.05293624184185
+Player #1's happiness is: 331.8907506769058
+Player #2's happiness is: 357.5440145147769
+Player #3's happiness is: 434.53621432999415
+Player #4's happiness is: 364.2245411020781
+Player #5's happiness is: 361.5525599778325
+
+
+Player #0's happiness is: 355.9351398034763
+Player #1's happiness is: 333.5747809738095
+Player #2's happiness is: 423.70099693328655
+Player #3's happiness is: 544.5232081671002
+Player #4's happiness is: 439.28443806551957
+Player #5's happiness is: 534.6708613466714
+
+
+Player #0's happiness is: 301.4601804518527
+Player #1's happiness is: 327.7806529912908
+Player #2's happiness is: 328.1857665544545
+Player #3's happiness is: 343.9488194365491
+Player #4's happiness is: 353.52667659621056
+Player #5's happiness is: 343.15719532489703
+
+
+Player #0's happiness is: 424.92030252825407
+Player #1's happiness is: 381.4052609517461
+Player #2's happiness is: 452.99272092533556
+Player #3's happiness is: 616.0197830669669
+Player #4's happiness is: 437.535177506605
+Player #5's happiness is: 460.213402640137
+
+
+Player #0's happiness is: 639.6745168012088
+Player #1's happiness is: 455.73461960537963
+Player #2's happiness is: 404.3522414480887
+Player #3's happiness is: 457.3076213583809
+Player #4's happiness is: 409.5092939521202
+Player #5's happiness is: 485.0852848632685
+
+
+Player #0's happiness is: 329.62770967115506
+Player #1's happiness is: 334.89085387395596
+Player #2's happiness is: 425.3114834883228
+Player #3's happiness is: 603.5865917166687
+Player #4's happiness is: 366.49443954739354
+Player #5's happiness is: 430.7928071512145
+
+
+Player #0's happiness is: 295.1733627649287
+Player #1's happiness is: 366.73307972539646
+Player #2's happiness is: 384.0366379782339
+Player #3's happiness is: 596.450176443276
+Player #4's happiness is: 390.77759339568604
+Player #5's happiness is: 427.49724265920895
+
+
+Player #0's happiness is: 403.2154558096359
+Player #1's happiness is: 319.08324932983487
+Player #2's happiness is: 369.3228957081966
+Player #3's happiness is: 516.4659298612903
+Player #4's happiness is: 371.55450486259696
+Player #5's happiness is: 464.8243466344519
+
+
+Player #0's happiness is: 489.99381827840847
+Player #1's happiness is: 432.37626814470707
+Player #2's happiness is: 483.94866513178397
+Player #3's happiness is: 532.3239975191592
+Player #4's happiness is: 475.53539601916856
+Player #5's happiness is: 753.573967053248
+
+
+Player #0's happiness is: 388.1451706329336
+Player #1's happiness is: 391.5500240644138
+Player #2's happiness is: 403.95452882531004
+Player #3's happiness is: 495.3467461621319
+Player #4's happiness is: 427.69255112475605
+Player #5's happiness is: 460.2441830207554
+
+
+Player #0's happiness is: 434.15626618128664
+Player #1's happiness is: 367.52404211671865
+Player #2's happiness is: 447.45552097461115
+Player #3's happiness is: 571.6882743508479
+Player #4's happiness is: 398.5527663279063
+Player #5's happiness is: 458.58793479435354
+
+
+Player #0's happiness is: 314.17533751951385
+Player #1's happiness is: 318.64997852318754
+Player #2's happiness is: 379.36157708195327
+Player #3's happiness is: 510.00035892482344
+Player #4's happiness is: 321.79387459434435
+Player #5's happiness is: 363.28356118353065
+
+
+Player #0's happiness is: 313.53476388818297
+Player #1's happiness is: 290.4364608517252
+Player #2's happiness is: 367.51049528979513
+Player #3's happiness is: 471.23318080776016
+Player #4's happiness is: 309.5165191303786
+Player #5's happiness is: 468.332555116254
+
+
+Player #0's happiness is: 311.8704612910215
+Player #1's happiness is: 379.4980265613042
+Player #2's happiness is: 360.94911527507065
+Player #3's happiness is: 570.5099763626553
+Player #4's happiness is: 380.00164249779624
+Player #5's happiness is: 350.0393948794891
+
+
+Player #0's happiness is: 365.64750793392227
+Player #1's happiness is: 365.7980610871859
+Player #2's happiness is: 494.20919325155273
+Player #3's happiness is: 622.1847766077758
+Player #4's happiness is: 384.9792535750071
+Player #5's happiness is: 536.4101008225034
+
+
+Player #0's happiness is: 357.2554246409786
+Player #1's happiness is: 326.6569513521862
+Player #2's happiness is: 416.2759998032783
+Player #3's happiness is: 420.78483576766905
+Player #4's happiness is: 343.6747359237411
+Player #5's happiness is: 346.3470878057907
+
+
+Player #0's happiness is: 347.9443969014824
+Player #1's happiness is: 319.2615289137344
+Player #2's happiness is: 374.3549842815165
+Player #3's happiness is: 576.8327117383202
+Player #4's happiness is: 359.33076871927784
+Player #5's happiness is: 424.9717788656076
+
+
+Player #0's happiness is: 325.1273516899753
+Player #1's happiness is: 336.262859372742
+Player #2's happiness is: 411.01573514014
+Player #3's happiness is: 605.63895512594
+Player #4's happiness is: 376.06009221229425
+Player #5's happiness is: 379.16270901368114
+
+
+Player #0's happiness is: 462.9719418778893
+Player #1's happiness is: 329.7301638492583
+Player #2's happiness is: 452.3311439352036
+Player #3's happiness is: 419.0052309517541
+Player #4's happiness is: 414.99017057939443
+Player #5's happiness is: 616.2516680920274
+
+
+Player #0's happiness is: 297.8129148891766
+Player #1's happiness is: 313.0067119378863
+Player #2's happiness is: 341.9704623241794
+Player #3's happiness is: 441.21023333841964
+Player #4's happiness is: 347.2535469643127
+Player #5's happiness is: 356.4407692336607
+
+
+Player #0's happiness is: 345.8143054333859
+Player #1's happiness is: 346.9158516010365
+Player #2's happiness is: 376.04112567363603
+Player #3's happiness is: 563.223379488164
+Player #4's happiness is: 386.47801791757604
+Player #5's happiness is: 414.5046406781298
+
+
+Player #0's happiness is: 469.5272883684206
+Player #1's happiness is: 350.54161571821317
+Player #2's happiness is: 439.76046589708346
+Player #3's happiness is: 407.03795586543026
+Player #4's happiness is: 394.185218182687
+Player #5's happiness is: 467.9604976982654
+
+
+Player #0's happiness is: 334.84906002779576
+Player #1's happiness is: 370.12906154467754
+Player #2's happiness is: 431.9989838678362
+Player #3's happiness is: 590.5849420461858
+Player #4's happiness is: 398.7403557928063
+Player #5's happiness is: 489.73091001306557
+
+
+Player #0's happiness is: 333.44934839392374
+Player #1's happiness is: 317.8702829741276
+Player #2's happiness is: 343.8206148791871
+Player #3's happiness is: 366.2710017143618
+Player #4's happiness is: 343.87607300241586
+Player #5's happiness is: 325.39634603201125
+
+
+Player #0's happiness is: 523.3357615388132
+Player #1's happiness is: 411.9347468698859
+Player #2's happiness is: 515.5246120257891
+Player #3's happiness is: 716.1852968579792
+Player #4's happiness is: 499.9513573572432
+Player #5's happiness is: 698.8822114675978
+
+
+Player #0's happiness is: 350.43256272316876
+Player #1's happiness is: 330.5399970654041
+Player #2's happiness is: 412.2620648698205
+Player #3's happiness is: 610.3246749788608
+Player #4's happiness is: 338.8536327181204
+Player #5's happiness is: 442.42168914468505
+
+
+Player #0's happiness is: 388.54833546341047
+Player #1's happiness is: 330.00923163474266
+Player #2's happiness is: 418.29253538386115
+Player #3's happiness is: 551.8558983079183
+Player #4's happiness is: 401.45818891698116
+Player #5's happiness is: 442.4199057193991
+
+
+Player #0's happiness is: 456.82034240007
+Player #1's happiness is: 389.66053866213485
+Player #2's happiness is: 468.41094731683506
+Player #3's happiness is: 615.1040569208869
+Player #4's happiness is: 431.5676064218996
+Player #5's happiness is: 684.3458702246942
+
+
+Player #0's happiness is: 423.00436027949075
+Player #1's happiness is: 422.20374944147795
+Player #2's happiness is: 447.84503679182177
+Player #3's happiness is: 516.7127307204939
+Player #4's happiness is: 391.76346069309074
+Player #5's happiness is: 706.3712146893994
+
+
+Player #0's happiness is: 417.95683735690847
+Player #1's happiness is: 354.9577937172257
+Player #2's happiness is: 396.61614076953697
+Player #3's happiness is: 516.8495386215683
+Player #4's happiness is: 378.19559771549547
+Player #5's happiness is: 483.2219721892004
+
+
+Player #0's happiness is: 304.68019419236566
+Player #1's happiness is: 313.7331760644916
+Player #2's happiness is: 353.6168540727567
+Player #3's happiness is: 414.36049340598265
+Player #4's happiness is: 362.6491003763157
+Player #5's happiness is: 394.4327983732468
+
+
+Player #0's happiness is: 396.1654963845867
+Player #1's happiness is: 366.0561923256187
+Player #2's happiness is: 427.7886386120822
+Player #3's happiness is: 567.0821048968858
+Player #4's happiness is: 390.1178687792523
+Player #5's happiness is: 502.041477731922
+
+
+Player #0's happiness is: 521.3568766476276
+Player #1's happiness is: 376.88930983296314
+Player #2's happiness is: 452.65786895579515
+Player #3's happiness is: 472.49233042345884
+Player #4's happiness is: 397.26473752283164
+Player #5's happiness is: 623.1203545197486
+
+
+Player #0's happiness is: 335.0499114735994
+Player #1's happiness is: 343.7177161279934
+Player #2's happiness is: 387.9013209316986
+Player #3's happiness is: 485.10792031493156
+Player #4's happiness is: 338.3092149715748
+Player #5's happiness is: 400.30195876836336
+
+
+Player #0's happiness is: 362.6247150830493
+Player #1's happiness is: 357.02169587149126
+Player #2's happiness is: 368.3686450625073
+Player #3's happiness is: 472.86822302498956
+Player #4's happiness is: 410.9510924298429
+Player #5's happiness is: 428.65296591324454
+
+
+Player #0's happiness is: 396.37309146470784
+Player #1's happiness is: 330.62279159076434
+Player #2's happiness is: 409.27928889682903
+Player #3's happiness is: 544.7345486844551
+Player #4's happiness is: 392.60778358490535
+Player #5's happiness is: 478.4978118182182
+
+
+Player #0's happiness is: 347.25462835072653
+Player #1's happiness is: 371.81099123752426
+Player #2's happiness is: 355.4283816519197
+Player #3's happiness is: 517.1160171633405
+Player #4's happiness is: 367.7761733926816
+Player #5's happiness is: 382.12089658845605
+
+
+Player #0's happiness is: 387.8558144227005
+Player #1's happiness is: 393.2099324956032
+Player #2's happiness is: 432.30025796322406
+Player #3's happiness is: 714.8689597081243
+Player #4's happiness is: 436.94158931752463
+Player #5's happiness is: 441.723649789265
+
+
+Player #0's happiness is: 381.9800654780303
+Player #1's happiness is: 345.76719834735457
+Player #2's happiness is: 433.7974751140431
+Player #3's happiness is: 546.8074606696555
+Player #4's happiness is: 379.28334888707775
+Player #5's happiness is: 497.2062110516074
+
+
+Player #0's happiness is: 716.4538162020949
+Player #1's happiness is: 459.5961103472314
+Player #2's happiness is: 387.03157785885116
+Player #3's happiness is: 440.98230690144123
+Player #4's happiness is: 438.601053683014
+Player #5's happiness is: 471.4466703331352
+
+
+Player #0's happiness is: 321.2733559925127
+Player #1's happiness is: 336.8254282837566
+Player #2's happiness is: 386.51076648955484
+Player #3's happiness is: 331.6904789410096
+Player #4's happiness is: 353.6165833965682
+Player #5's happiness is: 310.59749433743355
+
+
+Player #0's happiness is: 441.39147340778413
+Player #1's happiness is: 354.6532744804673
+Player #2's happiness is: 403.2708605732339
+Player #3's happiness is: 561.5729900247311
+Player #4's happiness is: 358.8958178388665
+Player #5's happiness is: 487.64611844677927
+
+
+Player #0's happiness is: 474.5803571819729
+Player #1's happiness is: 377.9296473509321
+Player #2's happiness is: 372.46629718555505
+Player #3's happiness is: 461.0005970625044
+Player #4's happiness is: 425.5186199774187
+Player #5's happiness is: 581.1247148740285
+
+
+Player #0's happiness is: 446.56066331164163
+Player #1's happiness is: 379.85740767420504
+Player #2's happiness is: 425.9417417485457
+Player #3's happiness is: 469.36337474185785
+Player #4's happiness is: 411.6920183373935
+Player #5's happiness is: 736.7750189091103
+
+
+Player #0's happiness is: 418.41603882890547
+Player #1's happiness is: 391.93144888286537
+Player #2's happiness is: 447.50308935006683
+Player #3's happiness is: 516.3022623583267
+Player #4's happiness is: 393.2843471335208
+Player #5's happiness is: 755.8046195241984
+
+
+Player #0's happiness is: 334.2952410061181
+Player #1's happiness is: 314.0190156179075
+Player #2's happiness is: 424.5255458055359
+Player #3's happiness is: 538.9329250722491
+Player #4's happiness is: 442.6173312866149
+Player #5's happiness is: 473.1714500383447
+
+
+Player #0's happiness is: 329.44332351285647
+Player #1's happiness is: 411.1503389194072
+Player #2's happiness is: 491.90777185566037
+Player #3's happiness is: 545.7037823665496
+Player #4's happiness is: 420.2155912725415
+Player #5's happiness is: 455.98844890300063
+
+
+Player #0's happiness is: 322.58287027408244
+Player #1's happiness is: 322.5963299912415
+Player #2's happiness is: 396.50268930974386
+Player #3's happiness is: 496.61760704543326
+Player #4's happiness is: 372.28513230049754
+Player #5's happiness is: 425.1480365597954
+
+
+Player #0's happiness is: 434.53256469274015
+Player #1's happiness is: 329.7371146782598
+Player #2's happiness is: 422.463024430062
+Player #3's happiness is: 491.44552133591696
+Player #4's happiness is: 367.30887821898585
+Player #5's happiness is: 445.64528919745214
+
+
+Player #0's happiness is: 439.88334556225897
+Player #1's happiness is: 390.8265354506302
+Player #2's happiness is: 505.93071496989364
+Player #3's happiness is: 690.8394420542201
+Player #4's happiness is: 422.31063930230084
+Player #5's happiness is: 602.3663279316277
+
+
+Player #0's happiness is: 349.7875369646325
+Player #1's happiness is: 366.3295327499062
+Player #2's happiness is: 467.54370273341283
+Player #3's happiness is: 508.72385552393604
+Player #4's happiness is: 404.25378440344093
+Player #5's happiness is: 476.63661575941876
+
+
+Player #0's happiness is: 346.14392646912574
+Player #1's happiness is: 338.8761907392555
+Player #2's happiness is: 370.62818630588936
+Player #3's happiness is: 522.6054867630089
+Player #4's happiness is: 395.7256180579162
+Player #5's happiness is: 387.52466493762455
+
+
+Player #0's happiness is: 501.28102556280317
+Player #1's happiness is: 388.05631813535456
+Player #2's happiness is: 467.1150467302813
+Player #3's happiness is: 426.8610516679596
+Player #4's happiness is: 406.00335868543846
+Player #5's happiness is: 405.17072016005454
+
+
+Player #0's happiness is: 442.859287309185
+Player #1's happiness is: 416.9504083400743
+Player #2's happiness is: 474.71089814900745
+Player #3's happiness is: 501.315816671264
+Player #4's happiness is: 471.13455626657714
+Player #5's happiness is: 721.0517170805424
+
+
+Player #0's happiness is: 436.66787900072717
+Player #1's happiness is: 331.89339321951206
+Player #2's happiness is: 409.1132827498327
+Player #3's happiness is: 476.51715033366264
+Player #4's happiness is: 383.74760739354383
+Player #5's happiness is: 429.26226935723645
+
+
+Player #0's happiness is: 352.09914741660896
+Player #1's happiness is: 334.2218980499167
+Player #2's happiness is: 419.5345508075535
+Player #3's happiness is: 576.9091824208105
+Player #4's happiness is: 406.6586227333225
+Player #5's happiness is: 441.72721298424784
+
+
+Player #0's happiness is: 334.22304509275216
+Player #1's happiness is: 338.33150952983385
+Player #2's happiness is: 398.6629868229609
+Player #3's happiness is: 443.42319951794195
+Player #4's happiness is: 339.4719259080508
+Player #5's happiness is: 438.09688610692285
+
+
+Player #0's happiness is: 290.2413043879461
+Player #1's happiness is: 334.19179823771805
+Player #2's happiness is: 374.7896350043128
+Player #3's happiness is: 421.1373147071971
+Player #4's happiness is: 391.4083534229541
+Player #5's happiness is: 353.3825231745504
+
+
+Player #0's happiness is: 419.1485570937159
+Player #1's happiness is: 361.2300416209813
+Player #2's happiness is: 447.2045894564652
+Player #3's happiness is: 553.8710949981727
+Player #4's happiness is: 406.6711267865683
+Player #5's happiness is: 554.0159176398722
+
+
+Player #0's happiness is: 348.5376156072272
+Player #1's happiness is: 397.80909549639597
+Player #2's happiness is: 440.4230103933218
+Player #3's happiness is: 593.7538451378324
+Player #4's happiness is: 365.8611542230658
+Player #5's happiness is: 474.2475423297327
+
+
+Player #0's happiness is: 295.8249998646553
+Player #1's happiness is: 302.6748877269365
+Player #2's happiness is: 338.34191294806385
+Player #3's happiness is: 332.7702877437443
+Player #4's happiness is: 340.1428602606196
+Player #5's happiness is: 339.17681703439234
+
+
+Player #0's happiness is: 415.7894451892585
+Player #1's happiness is: 435.9702176837974
+Player #2's happiness is: 369.3278594162126
+Player #3's happiness is: 514.5936069147151
+Player #4's happiness is: 397.2442226466641
+Player #5's happiness is: 815.8619649405125
+
+
+Player #0's happiness is: 351.26437719529565
+Player #1's happiness is: 310.9810428846406
+Player #2's happiness is: 392.62739974139265
+Player #3's happiness is: 507.26655528011713
+Player #4's happiness is: 362.5345324198847
+Player #5's happiness is: 384.06845140564116
+
+
+Player #0's happiness is: 327.7405085379449
+Player #1's happiness is: 349.8724056396636
+Player #2's happiness is: 316.77831828047994
+Player #3's happiness is: 500.45118941448925
+Player #4's happiness is: 366.6369966594499
+Player #5's happiness is: 372.8247585767888
+
+
+Player #0's happiness is: 555.5174113200604
+Player #1's happiness is: 370.9460518025385
+Player #2's happiness is: 356.58200520869036
+Player #3's happiness is: 409.22632216721524
+Player #4's happiness is: 375.1259177892175
+Player #5's happiness is: 476.8855959765732
+
+
+Player #0's happiness is: 424.5723718298131
+Player #1's happiness is: 382.94985758416425
+Player #2's happiness is: 399.0353251530023
+Player #3's happiness is: 634.1480343181913
+Player #4's happiness is: 386.5561003870844
+Player #5's happiness is: 476.43693804915824
+
+
+Player #0's happiness is: 369.23417727307367
+Player #1's happiness is: 390.52736553503445
+Player #2's happiness is: 429.32360667916686
+Player #3's happiness is: 490.3496053454617
+Player #4's happiness is: 371.33093119260457
+Player #5's happiness is: 438.36040311778737
+
+
+Player #0's happiness is: 483.3043065088533
+Player #1's happiness is: 451.29976774715584
+Player #2's happiness is: 526.2060732273491
+Player #3's happiness is: 698.0638578657401
+Player #4's happiness is: 404.47486539943907
+Player #5's happiness is: 783.5458718264165
+
+
+Player #0's happiness is: 402.85937970072916
+Player #1's happiness is: 394.516049168741
+Player #2's happiness is: 398.75284970804853
+Player #3's happiness is: 758.3181153598091
+Player #4's happiness is: 374.19208055152666
+Player #5's happiness is: 468.91550814512044
+
+
+Player #0's happiness is: 470.42450955982144
+Player #1's happiness is: 372.6476749011042
+Player #2's happiness is: 440.25348624094204
+Player #3's happiness is: 799.3913667679852
+Player #4's happiness is: 415.9664748454119
+Player #5's happiness is: 489.16346678396843
+
+
+Player #0's happiness is: 317.7336187734064
+Player #1's happiness is: 325.6680807413735
+Player #2's happiness is: 402.57277858018466
+Player #3's happiness is: 436.14935349155996
+Player #4's happiness is: 403.01963698128264
+Player #5's happiness is: 375.7469652633937
+
+
+Player #0's happiness is: 406.26974701734866
+Player #1's happiness is: 335.28896302971856
+Player #2's happiness is: 431.03041020350486
+Player #3's happiness is: 456.5415732329688
+Player #4's happiness is: 405.86059683979977
+Player #5's happiness is: 625.5341759541735
+
+
+Player #0's happiness is: 376.4070363508474
+Player #1's happiness is: 323.86869018491404
+Player #2's happiness is: 371.64614436037925
+Player #3's happiness is: 577.8945683947627
+Player #4's happiness is: 355.3147014036183
+Player #5's happiness is: 425.1805902071628
+
+
+Player #0's happiness is: 349.15628576274185
+Player #1's happiness is: 378.97268641960227
+Player #2's happiness is: 425.6768185171684
+Player #3's happiness is: 637.9437058800576
+Player #4's happiness is: 397.050449216435
+Player #5's happiness is: 436.93820489870393
+
+
+Player #0's happiness is: 473.07365528519665
+Player #1's happiness is: 360.3201009639746
+Player #2's happiness is: 430.90450910435504
+Player #3's happiness is: 432.53433062726424
+Player #4's happiness is: 429.51166793540244
+Player #5's happiness is: 454.9177866569991
+
+
+Player #0's happiness is: 331.87198701886126
+Player #1's happiness is: 328.12936441968196
+Player #2's happiness is: 409.8647785601826
+Player #3's happiness is: 495.7674733309801
+Player #4's happiness is: 410.72485658853
+Player #5's happiness is: 409.8079412099305
+
+
+Player #0's happiness is: 369.6678035418999
+Player #1's happiness is: 283.34700063389215
+Player #2's happiness is: 445.6675727565728
+Player #3's happiness is: 426.7966908475147
+Player #4's happiness is: 405.130074486489
+Player #5's happiness is: 364.9413681947076
+
+
+Player #0's happiness is: 303.35088363340464
+Player #1's happiness is: 320.8324592259614
+Player #2's happiness is: 402.26869377358196
+Player #3's happiness is: 493.87130632208857
+Player #4's happiness is: 392.94513472669945
+Player #5's happiness is: 385.33506112178327
+
+
+Player #0's happiness is: 373.33761908410344
+Player #1's happiness is: 341.37860860539973
+Player #2's happiness is: 434.7566739725155
+Player #3's happiness is: 627.7727733173458
+Player #4's happiness is: 391.04323627038616
+Player #5's happiness is: 462.88375724263767
+
+
+Player #0's happiness is: 454.96012401039224
+Player #1's happiness is: 386.299783387349
+Player #2's happiness is: 486.11178603035705
+Player #3's happiness is: 666.6399492414363
+Player #4's happiness is: 460.76568897643403
+Player #5's happiness is: 686.4461667372036
+
+
+Player #0's happiness is: 348.19503883695353
+Player #1's happiness is: 322.6034281916906
+Player #2's happiness is: 428.0026289113973
+Player #3's happiness is: 490.28254212313766
+Player #4's happiness is: 352.9403376304423
+Player #5's happiness is: 407.93025947006015
+
+
+Player #0's happiness is: 462.95425956534496
+Player #1's happiness is: 423.9268691635085
+Player #2's happiness is: 407.8144504225536
+Player #3's happiness is: 368.0613485610162
+Player #4's happiness is: 381.2845509990266
+Player #5's happiness is: 438.8475010293673
+
+
