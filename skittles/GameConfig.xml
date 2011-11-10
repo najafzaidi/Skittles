@@ -29,7 +29,7 @@
 	</Player>
 	
 	 <Player>
-		<Class>skittles.g5.FatKidPositive</Class>
+		<Class>skittles.g5.SkittleDiddle</Class>
 		<Happiness>random,0.2</Happiness>
 		<InHand>random</InHand>
 	</Player>

@@ -25,7 +25,7 @@ public class Game
 	private ArrayList< PlayerStatus > alPlayerStatus;
 	private int intPlayerNum;
 	private int intColorNum;
-	private boolean doAllPermutations=true;
+	private boolean doAllPermutations=false;
 	
 	private Double[] totalScores;
 	private double dblTasteMean;
