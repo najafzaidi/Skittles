@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GameConfig>
+	<Game>
+		<ColorNum>20</ColorNum>
+		<SkittleNum>80</SkittleNum>
+	</Game>
+	
+ <Player>
+		<Class>skittles.g2.Ebenezer</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+	<Player>
+		<Class>skittles.g4FatKid.G4FatKid</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+
+	<Player>
+		<Class>skittles.g7.G7Player</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+	
+	<Player>
+		<Class>skittles.g3.G3Player</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+	
+	 <Player>
+		<Class>skittles.g5.FatKidPositive</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+	 <Player>
+		<Class>skittles.g5.SkittleDiddle</Class>
+		<Happiness>random,0.5</Happiness>
+		<InHand>random</InHand>
+	</Player>
+</GameConfig>
+
+##################
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.5;
+		coeffs[2] = round*Math.exp(-round*0.5);
+
+Total Player #0's happiness =66388.9435341889
+Total Player #1's happiness =31125.38652899276
+Total Player #2's happiness =43576.58868270061
+Total Player #3's happiness =49055.21011761971
+Total Player #4's happiness =36695.81805958482
+Total Player #5's happiness =34464.297009870315
+[5/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.7;
+		coeffs[2] = round*Math.exp(-round*0.5);
+		Total Player #0's happiness =47459.07542640134
+
+Total Player #1's happiness =45152.89996284477
+Total Player #2's happiness =44437.89673643759
+Total Player #3's happiness =57379.027700073115
+Total Player #4's happiness =47965.69053107173
+Total Player #5's happiness =39139.85935796094 [6/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.5);
+
+Total Player #0's happiness =60746.01347662311
+Total Player #1's happiness =39461.159782720824
+Total Player #2's happiness =52650.46608133463
+Total Player #3's happiness =52799.449232492436
+Total Player #4's happiness =71551.01294547794
+Total Player #5's happiness =63597.09253543214 [3/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.2;
+		coeffs[2] = round*Math.exp(-round*0.5);
+
+Total Player #0's happiness =44444.67862069446
+Total Player #1's happiness =36895.12820354043
+Total Player #2's happiness =36971.916932991444
+Total Player #3's happiness =66650.34680859109
+Total Player #4's happiness =37129.52958766399
+Total Player #5's happiness =33250.39273692657 [6/6]
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.3;
+		coeffs[2] = round*Math.exp(-round*0.5);
+
+Total Player #0's happiness =36651.21173720707
+Total Player #1's happiness =45870.47123679727
+Total Player #2's happiness =86944.17475162986
+Total Player #3's happiness =60518.295316900854
+Total Player #4's happiness =72082.44470803918
+Total Player #5's happiness =64159.9853852427 [3/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.25);
+
+Total Player #0's happiness =51731.61394734125
+Total Player #1's happiness =31822.948693364353
+Total Player #2's happiness =49288.237498342016
+Total Player #3's happiness =64706.436036165105
+Total Player #4's happiness =55317.54946750066
+Total Player #5's happiness =30281.785756632406 [6/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.75);
+
+Total Player #0's happiness =27178.493866259465
+Total Player #1's happiness =39022.44674238165
+Total Player #2's happiness =51484.27518173201
+Total Player #3's happiness =53037.61475339905
+Total Player #4's happiness =27150.690723746837
+Total Player #5's happiness =46257.32875983138 [3/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =85017.27606503732
+Total Player #1's happiness =45857.40997945722
+Total Player #2's happiness =64777.626642871845
+Total Player #3's happiness =76623.83887212978
+Total Player #4's happiness =50004.79835518574
+Total Player #5's happiness =56934.07109132037 [4/6]
+
+Total Player #0's happiness =40709.53898092947
+Total Player #1's happiness =33691.25676943414
+Total Player #2's happiness =42164.48621737107
+Total Player #3's happiness =69684.65500639827
+Total Player #4's happiness =69101.19982743527
+Total Player #5's happiness =46056.9410149 [3/6]
+
+# Switching from 100 to 500 games.
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =307425.8669678263
+Total Player #1's happiness =196175.12864692498
+Total Player #2's happiness =341010.7557259343
+Total Player #3's happiness =401646.1338299485
+Total Player #4's happiness =359789.41234042816
+Total Player #5's happiness =425488.0252976791 [1/6]
+
+Total Player #0's happiness =225066.560325953
+Total Player #1's happiness =174753.41684819577
+Total Player #2's happiness =204268.42862452727
+Total Player #3's happiness =273485.59303870203
+Total Player #4's happiness =317418.10443865217
+Total Player #5's happiness =398630.37364749936 [1/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*1);
+
+Total Player #0's happiness =264291.7866131944
+Total Player #1's happiness =231849.79211875366
+Total Player #2's happiness =273012.790816127
+Total Player #3's happiness =292047.34701694624
+Total Player #4's happiness =363120.69336789736
+Total Player #5's happiness =286981.6501076375 [3/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.96);
+
+Total Player #0's happiness =202978.64089352137
+Total Player #1's happiness =210553.17127607885
+Total Player #2's happiness =164227.0811314093
+Total Player #3's happiness =309948.60038398264
+Total Player #4's happiness =222646.40086985796
+Total Player #5's happiness =189231.87092470544 [6/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =337389.56452363683
+Total Player #1's happiness =160015.92015587387
+Total Player #2's happiness =198650.5346806142
+Total Player #3's happiness =254620.32345302444
+Total Player #4's happiness =189969.4156352299
+Total Player #5's happiness =209413.0815602665 [3/6]
+
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =190234.9753055615
+Total Player #1's happiness =215213.1694019319
+Total Player #2's happiness =204632.4163202943
+Total Player #3's happiness =250507.31815432195
+Total Player #4's happiness =525185.1678906834
+Total Player #5's happiness =353404.7748238502 [2/6]
+
+# Now running 1000 times
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.4;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =388720.20119811123
+Total Player #1's happiness =346685.98687868664
+Total Player #2's happiness =379079.0633251721
+Total Player #3's happiness =317462.02424553805
+Total Player #4's happiness =526495.6803182963
+Total Player #5's happiness =347596.59129889234 [4/6]
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.35;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =339574.1752052548
+Total Player #1's happiness =450078.9707599799
+Total Player #2's happiness =526215.6881709507
+Total Player #3's happiness =860797.227130315
+Total Player #4's happiness =634884.6960793373
+Total Player #5's happiness =1040936.0472202703 [1/6]
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.35;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+After Game 1 the total scores are
+Total Player #0's happiness =473489.8002755127
+Total Player #1's happiness =314597.6019257455
+Total Player #2's happiness =532205.0810200843
+Total Player #3's happiness =570910.6608842107
+Total Player #4's happiness =582558.9695259313
+Total Player #5's happiness =639234.0459885849 [1/6]
+
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.35;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+Total Player #0's happiness =349997.41565875546
+Total Player #1's happiness =273020.80032126675
+Total Player #2's happiness =445592.1982864471
+Total Player #3's happiness =656604.8396049032
+Total Player #4's happiness =530936.2313239232
+Total Player #5's happiness =421274.9732269416 [4/6]
+
+# Moved the Game instantiation within the Skittles for-loop. Running 500x.
+
+		coeffs[0] = 1;
+		coeffs[1] = 0.35;
+		coeffs[2] = round*Math.exp(-round*0.95);
+
+P0: 240270.531357
+P1: 201918.973168
+P2: 225164.497743
+P3: 313034.698696
+P4: 284782.381764
+P5: 286142.418836 [2/6]
+
+P0: 242472.475624
+P1: 202062.117693
+P2: 222018.386929
+P3: 307028.142447
+P4: 286551.837696
+P5: 281035.544437 [3/6]

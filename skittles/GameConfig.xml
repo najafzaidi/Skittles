@@ -29,10 +29,6 @@
 	</Player>
 	
 	 <Player>
-<<<<<<< HEAD
-		<Class>skittles.g5.SkittleDiddle</Class>
-		<Happiness>random,0.2</Happiness>
-=======
 		<Class>skittles.g5.FatKidPositive</Class>
 		<Happiness>random,0.5</Happiness>
 		<InHand>random</InHand>
@@ -40,7 +36,6 @@
 	 <Player>
 		<Class>skittles.g5.SkittleDiddle</Class>
 		<Happiness>random,0.5</Happiness>
->>>>>>> c6e2f55cf8d8766715cf13131e9e7a0c9473f3aa
 		<InHand>random</InHand>
 	</Player>
 </GameConfig>

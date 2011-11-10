@@ -221,8 +221,8 @@ public class SkittleDiddle extends Player
 		double[] utilities = new double[3]; // 0:positive, 1:negative, 2:basic
 		double[] coeffs = new double[3];
 		coeffs[0] = 1;
-		coeffs[1] = 0.5;
-		coeffs[2] = round*Math.exp(-round*0.5);
+		coeffs[1] = 0.35;
+		coeffs[2] = round*Math.exp(-round*0.95);
 
 		utilities[0] = maxGainPositive * coeffs[0];
 		utilities[1] = maxGainNegative * coeffs[1];
