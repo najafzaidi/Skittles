@@ -24,7 +24,7 @@ public class G4FatKid extends Player {
 	private int streakOfNoTrades;
 
 	// set verbose to false to suppress output of debug statements
-	boolean verbose = true;
+	boolean verbose = false;
 	boolean desiredResult = false;
 	// PlayerProfiles tracks net changes to all players
 	private PlayerProfiles opponentProfiles;
@@ -322,7 +322,7 @@ public class G4FatKid extends Player {
 	}
 
 	@Override
-	public void initialize(int playerNum, int playerIndex, String className,
+	public void initialize(int playerNum, double dblTasteMean,int playerIndex, String className,
 			int[] aintInHand) {
 
 		this.lowerThreshold = 0.0;

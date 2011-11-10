@@ -343,7 +343,8 @@ public class G7Player extends Player {
 	}
 
 	@Override
-	public void initialize(int PlayerNum, int intPlayerIndex, String strClassName,
+
+	public void initialize(int PlayerNum, double dblTasteMean,int intPlayerIndex, String strClassName,
 			int[] aintInHand) {
 		this.intPlayerIndex = intPlayerIndex;
 		this.strClassName = strClassName;

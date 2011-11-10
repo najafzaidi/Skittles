@@ -1,3 +1,4 @@
+
 package skittles.g5;
 
 import java.util.ArrayList;
@@ -6,37 +7,59 @@ import skittles.sim.*;
 
 public class SkittleDiddle extends Player 
 {
-	boolean debugging=false;
-	
 	private int[] aintInHand;
 	private int intColorNum;
-	private int intPlayerNum;
 	double dblHappiness;
 	String strClassName;
 	int intPlayerIndex;
 	int round=0;
-	int lastRoundWithTrading;
-	// records the round in which some offer was executed
-	
-	int lastRoundWithOffer;
-	// records the round in which some offer was made by teams other than us
-	
+	boolean debugging=false;
 	int totalInitialSkittles;
 	int skittlesEaten;
 	int colorsLeft;
 	int colorsUnknownHave;
 	int colorsUnknownTotal;
+	int intPlayerNum;
+
+	int lastRoundWithTrading;
+	// records the round in which some offer was executed
+
+	int lastRoundOurOfferAccepted;
+
+	int lastRoundWithOffer;
+	// records the round in which some offer was made by teams other than us
+
+
 	int maxTransactionSize=Integer.MAX_VALUE;
+
+	int lastOfferMinIndex;
+	int lastOfferMaxIndex;
+	int lastOfferTransactionSize;
+
+	int maxValueTasteIndex=-1;
+	int minValueTasteIndex=-1;
+	int transactionSize=-1;
+
+	int maxValueTasteIndexPositive=-1;
+	int minValueTasteIndexPositive=-1;
+	int transactionSizePositive=-1;
+	double maxGainPositive=0;
 	
+
+	int maxValueTasteIndexNegative=-1;
+	int minValueTasteIndexNegative=-1;
+	int transactionSizeNegative=-1;
+	double maxGainNegative=0;
 	
+	int[] ignoreMaxColors ;
+
 
 	private double[] adblTastes;
 	private int intLastEatIndex;
 	private int intLastEatNum;
 	private ArrayList<int[]> netTradesPerPlayer;	// executed trade accounting (credits, debits) stored here
 
-	private ArrayList<offer_record> our_offers_list;
-	
+
 	@Override
 	public String getClassName() 
 	{
@@ -52,18 +75,15 @@ public class SkittleDiddle extends Player
 
 
 	@Override
-	public void initialize(int intPlayerNum,int intPlayerIndex, String strClassName,	int[] aintInHand) 
+	public void initialize(int intPlayerNum,double dblTasteMean,int intPlayerIndex, String strClassName,	int[] aintInHand) 
 	{
 		this.intPlayerIndex = intPlayerIndex;
 		this.strClassName = strClassName;
 		this.aintInHand = aintInHand;
-		this.intPlayerNum = intPlayerNum;
+		this.intPlayerNum=intPlayerNum;
 		intColorNum = aintInHand.length;
 		dblHappiness = 0;
 		adblTastes = new double[ intColorNum ];
-		
-		our_offers_list = new ArrayList<offer_record>();
-		
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
 			totalInitialSkittles+=aintInHand[intColorIndex];
@@ -71,16 +91,17 @@ public class SkittleDiddle extends Player
 			// may have to initialize it to -2 so that we know that we have not tasted it yet
 		}
 		maxTransactionSize=Integer.MAX_VALUE;
-		/*maxTransactionSize=totalInitialSkittles/(intColorNum*3);
-		if (maxTransactionSize<4)
-			maxTransactionSize=4;
-			*/
-		// has to be updated 
-		
+
 		netTradesPerPlayer = new ArrayList<int[]>(intPlayerNum);
 		for ( int i=0; i<intPlayerNum; i++ ) {
 			netTradesPerPlayer.add(new int[intColorNum]);
 		}
+		lastOfferMinIndex=-1;
+		lastOfferMaxIndex=-1;
+		lastOfferTransactionSize=-1;
+		lastRoundOurOfferAccepted=-1;
+		ignoreMaxColors = new int[ intColorNum ];
+
 	}
 
 
@@ -109,7 +130,7 @@ public class SkittleDiddle extends Player
 		}
 		skittlesToEat=1;
 		if(minValue>0) {
-			if ((round-lastRoundWithOffer) > 2)
+			if ((round-lastRoundWithOffer) > 0)
 				skittlesToEat=aintInHand[minValueIndex];
 		}
 		aintTempEat[ minValueIndex ] = skittlesToEat;
@@ -122,172 +143,148 @@ public class SkittleDiddle extends Player
 		}
 	}
 
+	public double findBestOfferToMake(int[] colorToIgnore) {
+		// the number of skittles in offer 
+		double maxValue=Double.MIN_VALUE;
+		double minValue=Double.MAX_VALUE;
+
+		double value; 
+		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
+		{
+			value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
+			if(colorToIgnore[intColorIndex]==1)
+				continue;
+			if(adblTastes[intColorIndex]!=-2) {
+				if(maxValue<value && ignoreMaxColors[intColorIndex]==0) {
+					maxValue=value;
+					maxValueTasteIndex=intColorIndex;
+				}
+				if ( aintInHand[ intColorIndex ] > 0 )
+				{ 
+					if(minValue>value) {
+						minValue=value;
+						minValueTasteIndex=intColorIndex;
+					}
+				}
+			}
+		}
+		if(maxTransactionSize<aintInHand[minValueTasteIndex]) 
+			transactionSize=maxTransactionSize;
+		else 
+			transactionSize=aintInHand[minValueTasteIndex];
+		return maxValue;
+
+	}
+
 	@Override
 	public void offer( Offer offTemp )
 	{
 
-		double maxValue=Double.MIN_VALUE;
-		double minValue=Double.MAX_VALUE;
-		double value; 
-		int maxValueTasteIndex=0;
-		int minValueTasteIndex=0;
-		int transactionSize=0;
 
+		maxValueTasteIndex=0;
+		minValueTasteIndex=0;
+		transactionSize=0;
+		double maxValue=0;
 		if(debugging) {
 			System.out.println("\n In round "+round);
 			for ( int i=0; i<intPlayerNum; i++ ) {
 				printArray("Player "+i,netTradesPerPlayer.get(i));
 			}
 		}
+		int[] ignoreColors = new int[ intColorNum ];
+		boolean loopOn=true;
+		int colorsIgnored=0;
+		while(loopOn && colorsIgnored<intColorNum) {
+			maxValue=findBestOfferToMake(ignoreColors);
+			System.out.println("maxValueTasteIndex="+maxValueTasteIndex+"minValueTasteIndex="+minValueTasteIndex+"transactionSize="+transactionSize+"maxValue="+maxValue);
+			loopOn=false;
+			if(lastOfferMinIndex==minValueTasteIndex && lastOfferMaxIndex==maxValueTasteIndex && loopOn) {
+				if( lastRoundOurOfferAccepted!=(round-1)) {
+					transactionSize=transactionSize*3/4;
+					if (transactionSize<1) {
+						loopOn=true;
+						colorsIgnored++;
+						ignoreColors[minValueTasteIndex]=1;
+					}
+
+				}
+			}
+		}
+		double basicApproachGain=evaluateOffer(maxValueTasteIndex,minValueTasteIndex,transactionSize);
+		setBestPositiveOfferToOffer();
+		setBestNegativeOfferToOffer();
+		//maxValueTasteIndex=0; 
 		
+		double[] utilities = new double[3]; // 0:positive, 1:negative, 2:basic
+		double[] coeffs = new double[3];
+		coeffs[0] = 1;
+		coeffs[1] = 0.5;
+		coeffs[2] = round*Math.exp(-round*0.5);
+		
+		utilities[0] = maxGainPositive * coeffs[0];
+		utilities[1] = maxGainNegative * coeffs[1];
+		utilities[2] = maxValue * coeffs[2];
+		
+		// Find max
+		int max = 0;
+		int maxUtility = 0;
+		for (int i=0; i<=2;i++) {
+			if (utilities[i] > maxUtility) {
+				max = i;
+			}
+		}
+		
+		if (max == 0) { // positive wins
+		
+			minValueTasteIndex=minValueTasteIndexPositive;
+			maxValueTasteIndex=maxValueTasteIndexPositive;
+			transactionSize=transactionSizePositive;
+			if(debugging) {
+				System.out.println("\n In round "+round+" positive offer is made  ");
+			}
+			if(maxGainPositive<=0)
+				ignoreMaxColors[maxValueTasteIndexPositive]=1;
+		} else if (max == 1) { // negative wins
+			minValueTasteIndex=minValueTasteIndexNegative;
+			maxValueTasteIndex=maxValueTasteIndexNegative;
+			transactionSize=transactionSizeNegative;
+			if(debugging) {
+				System.out.println("\n In round "+round+" negative offer is made  ");
+			}
+			if(maxGainNegative<=0)
+				ignoreMaxColors[maxValueTasteIndexPositive]=1;
+		} else { // basic wins
+			if(basicApproachGain<=0)
+				ignoreMaxColors[maxValueTasteIndex]=1;
+		}
+		// will set positiveMinIndex and positiveSize
+
+		/*if(transactionSize>3*totalInitialSkittles/intColorNum)
+			transactionSize/=3;
+		 */
+
+		lastOfferMinIndex=minValueTasteIndex;
+		lastOfferMaxIndex=maxValueTasteIndex;
+		lastOfferTransactionSize=transactionSize;
 		int[] aintOffer = new int[ intColorNum ];
-		int[] aintDesire = new int[ intColorNum ];		
-		
-		if(our_offers_list.isEmpty())
-		{
-			for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
-			{
-				if(adblTastes[intColorIndex]!=-2) {
-					value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
-					if(maxValue<value) {
-						maxValue=value;
-						maxValueTasteIndex=intColorIndex;
-					}
-					if ( aintInHand[ intColorIndex ] > 0 )
-					{ 
-						if(minValue>value) {
-							minValue=value;
-							minValueTasteIndex=intColorIndex;
-						}
-					}
-				}
+		int[] aintDesire = new int[ intColorNum ];
+		if(minValueTasteIndex!=maxValueTasteIndex) {
+			if (maxValue>0) {
+				aintOffer[ minValueTasteIndex ] = transactionSize;
+				aintDesire[ maxValueTasteIndex ] = transactionSize;
+			} else {
+				aintOffer[ minValueTasteIndex ] = transactionSize;
+				aintDesire[ minValueTasteIndex ] = transactionSize;
 			}
-			
-			transactionSize = 2;
-			
-			if(minValueTasteIndex!=maxValueTasteIndex)
-			{
-				if (maxValue>0)
-				{
-					aintOffer[ minValueTasteIndex ] = transactionSize;
-					aintDesire[ maxValueTasteIndex ] = transactionSize;
-				}
-				else
-				{
-					aintOffer[ minValueTasteIndex ] = transactionSize;
-					aintDesire[ minValueTasteIndex ] = transactionSize;
-				}
-			} 
-			else
-			{
-				if(minValue<0)
-				{
-					aintOffer[ minValueTasteIndex ] = transactionSize;
-					aintDesire[ minValueTasteIndex ] = transactionSize;
-				}
+		} 
+		/*else {
+			if(minValue<0) {
+				aintOffer[ minValueTasteIndex ] = transactionSize;
+				aintDesire[ minValueTasteIndex ] = transactionSize;
 			}
-		}
-		else
-		{
-			offer_record temp = our_offers_list.get(our_offers_list.size()-1); // last offer
-			int i;
-			int j;
-			int oldTransactionSize = 0;
-			for (i=0; i< intColorNum; i++)
-			{
-				if(temp.Offer[i]>0)
-				{
-					oldTransactionSize = temp.Offer[i];
-					break;
-				}
-			}
-			for (j=0; j< intColorNum; j++)
-			{
-				if(temp.Desire[j]>0)
-					break;
-			}
-			if(temp.executed == true) // last offer accepted
-			{
-				aintOffer[i] = oldTransactionSize * 2;
-				aintDesire[j] = oldTransactionSize * 2;
-			}
-			else
-			{
-				for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
-				{
-					if(adblTastes[intColorIndex]!=-2)
-					{
-						value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
-						if(maxValue<value && intColorIndex!=j)
-						{
-							maxValue=value;
-							maxValueTasteIndex=intColorIndex;
-						}
-						if ( aintInHand[ intColorIndex ] > 0 )
-						{ 
-							if(minValue>value && intColorIndex!=i)
-							{
-								minValue=value;
-								minValueTasteIndex=intColorIndex;
-							}
-						}
-					}
-				}
-				transactionSize = 2;
-				
-				if(minValueTasteIndex!=maxValueTasteIndex)
-				{
-					if (maxValue>0)
-					{
-						aintOffer[ minValueTasteIndex ] = transactionSize;
-						aintDesire[ maxValueTasteIndex ] = transactionSize;
-					}
-					else
-					{
-						aintOffer[ minValueTasteIndex ] = transactionSize;
-						aintDesire[ minValueTasteIndex ] = transactionSize;
-					}
-				} 
-				else
-				{
-					if(minValue<0)
-					{
-						aintOffer[ minValueTasteIndex ] = transactionSize;
-						aintDesire[ minValueTasteIndex ] = transactionSize;
-					}
-				}
-			}
-			
-		}
-		
-		int i;
-		int j;
-		for (i=0; i< intColorNum; i++)
-		{
-			if(aintOffer[i]>0)
-				break;
-		}
-		for (j=0; j< intColorNum; j++)
-		{
-			if(aintDesire[j]>0)
-				break;
-		}
-		
-		if(i<intColorNum && j<intColorNum && aintOffer[i]>aintInHand[i])
-		{
-			aintOffer[i]=aintInHand[i];
-			aintDesire[j]=aintInHand[i];
-		}
-		
+		}*/
+
 		offTemp.setOffer( aintOffer, aintDesire );
-		
-		offer_record temp = new offer_record();
-		temp.Offer = aintOffer;
-		temp.Desire = aintDesire;
-		temp.executed = false;
-		
-		our_offers_list.add(temp);
-		
 		if(debugging) {
 			System.out.println("\nstrClassName="+this.strClassName+"  intPlayerIndex="+intPlayerIndex+" Offer="+minValueTasteIndex+
 					"  Desire="+maxValueTasteIndex);
@@ -320,12 +317,12 @@ public class SkittleDiddle extends Player
 		double maxGain=-1;
 		for ( Offer offTemp : aoffCurrentOffers )
 		{
-			
+
 			if ( offTemp.getOfferedByIndex() != intPlayerIndex && lastRoundWithOffer<round) {
 				if(!isOfferEmpty(offTemp))
 					lastRoundWithOffer=round;
 			}
-			
+
 			if ( offTemp.getOfferedByIndex() == intPlayerIndex || offTemp.getOfferLive() == false )
 				continue;
 			int[] aintDesire = offTemp.getDesire();
@@ -335,7 +332,7 @@ public class SkittleDiddle extends Player
 				if(debugging) {
 					System.out.println("\n for intPlayerIndex="+intPlayerIndex+" gainByAccepting="+gainByAccepting+"  maxGain="+maxGain);
 					printArray("we give",offTemp.getDesire());
-					printArray("we  get",offTemp.getOffer());
+					printArray("we get ",offTemp.getOffer());
 				}
 				if(gainByAccepting>maxGain && gainByAccepting>0) {
 					if(debugging) {
@@ -363,46 +360,44 @@ public class SkittleDiddle extends Player
 	@Override
 	public void offerExecuted(Offer offPicked) 
 	{
+		lastRoundOurOfferAccepted=round;
 		int[] aintOffer = offPicked.getOffer();
 		int[] aintDesire = offPicked.getDesire();
+		boolean real=false;
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
+			if(aintDesire[ intColorIndex ]>0)
+				real=true;
 			aintInHand[ intColorIndex ] += aintDesire[ intColorIndex ] - aintOffer[ intColorIndex ];
 		}
-		
-		if(intPlayerIndex==offPicked.getOfferedByIndex())
-		{
-			offer_record temp = new offer_record();
-			temp.Offer = aintOffer;
-			temp.Desire = aintDesire;
-			temp.executed = true;
-			
-			our_offers_list.remove(our_offers_list.size()-1);
-			our_offers_list.add(temp);
+		if(debugging && real) {
+			System.out.println("\nin Round "+round+"  our offer executed !! ");
+			printArray("aintOffer",aintOffer);
+			printArray("aintDesire",aintDesire);
 		}
-		
 	}
 
 	@Override
-	public void updateOfferExe(Offer[] aoffCurrentOffers) {
+	public void updateOfferExe(Offer[] aoffCurrentOffers) 
+	{
 		int maker;
 		int taker;
 
 		for( Offer o : aoffCurrentOffers ) {
-			
+
 			maker = o.getOfferedByIndex();
 			taker = o.getPickedByIndex();
-						
+
 			if (taker<0) { // the offer wasn't taken	
 				continue;
 			}
-			
+
 			lastRoundWithTrading=round;
 			// an offer was executed in this round
-			
+
 			int[] offer = o.getOffer();
 			int[] desire = o.getDesire();
-			
+
 			// Offer maker
 			for (int i=0; i < offer.length; i++) {  // subtract skittles given away in offer
 				if (offer[i] > 0) {
@@ -416,7 +411,7 @@ public class SkittleDiddle extends Player
 					netTradesPerPlayer.get(maker)[i] = currentCount + desire[i];
 				}
 			}
-			
+
 			// Offer taker
 			for (int i=0; i < offer.length; i++) {  // add skittles given away in offer
 				if (offer[i] > 0) {
@@ -439,7 +434,126 @@ public class SkittleDiddle extends Player
 		// TODO Auto-generated method stub
 
 	}
+	public void setBestNegativeOfferToOffer() {
+		boolean[] ignoreColors=new boolean[intColorNum];
+		double maxValue=Double.MIN_VALUE;
+		double value; 
+		int myMaxColor=0;
+		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
+		{
+			value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
+			if(adblTastes[intColorIndex]!=-2) {
+				if(maxValue<value && ignoreMaxColors[intColorIndex]==0) {
+					maxValue=value;
+					myMaxColor=intColorIndex;
+				}
+			}
+		}
+		if (maxValue<=0)
+			return;
 
+		double maxGain=0;
+		int bestTransactionSize=0;
+		int bestPartnersIndex=0;
+		for(int p=0;p<intPlayerNum;p++) {
+			if(intPlayerIndex==p)
+				continue;
+			int partnersBestColor=returnBestPreferenceIndexForPlayer(p,ignoreColors) ;
+			if( partnersBestColor !=myMaxColor && aintInHand[partnersBestColor]>0) {
+				if(netTradesPerPlayer.get(p)[myMaxColor]<0) {
+					int negativeTransactionSize=aintInHand[partnersBestColor];
+					double gain=evaluateOffer(myMaxColor,partnersBestColor,negativeTransactionSize);
+					if(gain>maxGain) {
+						maxGain=gain;
+						bestPartnersIndex=partnersBestColor;
+						bestTransactionSize=negativeTransactionSize;
+					}
+				}
+			}
+		}
+		maxValueTasteIndexNegative=myMaxColor;
+		minValueTasteIndexNegative=bestPartnersIndex;
+		transactionSizeNegative=bestTransactionSize;
+		maxGainNegative=maxGain;
+
+
+
+	}
+	public void setBestPositiveOfferToOffer() {
+		boolean[] ignoreColors=new boolean[intColorNum];
+		double maxValue=Double.MIN_VALUE;
+		double value; 
+		int myMaxColor=0;
+		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
+		{
+			value=adblTastes[intColorIndex]*Math.pow(aintInHand[ intColorIndex ],2);
+			if(adblTastes[intColorIndex]!=-2) {
+				if(maxValue<value && ignoreMaxColors[intColorIndex]==0) {
+					maxValue=value;
+					myMaxColor=intColorIndex;
+				}
+			}
+		}
+		if (maxValue<=0)
+			return;
+
+		double maxGain=0;
+		int bestTransactionSize=0;
+		int bestPartnersIndex=0;
+		for(int p=0;p<intPlayerNum;p++) {
+			if(intPlayerIndex==p)
+				continue;
+			int partnersBestColor=returnBestPreferenceIndexForPlayer(p,ignoreColors) ;
+			if( partnersBestColor !=myMaxColor && aintInHand[partnersBestColor]>0) {
+				if(netTradesPerPlayer.get(p)[myMaxColor]>0) {
+					int positiveTransactionSize=0;
+					if(aintInHand[partnersBestColor]>netTradesPerPlayer.get(p)[myMaxColor])
+						positiveTransactionSize=netTradesPerPlayer.get(p)[myMaxColor];
+					else
+						positiveTransactionSize=aintInHand[partnersBestColor];
+
+					double gain=evaluateOffer(myMaxColor,partnersBestColor,positiveTransactionSize);
+					if(gain>maxGain) {
+						maxGain=gain;
+						bestPartnersIndex=partnersBestColor;
+						bestTransactionSize=positiveTransactionSize;
+					}
+				}
+
+			}
+		}
+		maxValueTasteIndexPositive=myMaxColor;
+		minValueTasteIndexPositive=bestPartnersIndex;
+		transactionSizePositive=bestTransactionSize;
+		maxGainPositive=maxGain;
+
+
+
+	}
+	public int returnBestPreferenceIndexForPlayer(int playerIndex, boolean[] ignoreColors) {
+		int bestColorIndex=0;
+		int max =0;
+		for (int i=0; i<intColorNum;i++) {
+			//if(ignoreColors[i])
+			//continue;
+			if(max<netTradesPerPlayer.get(playerIndex)[i]) {
+				max=netTradesPerPlayer.get(playerIndex)[i];
+				bestColorIndex=i;
+			}
+		}
+		return bestColorIndex;
+	}
+
+	public boolean isOfferEmpty( Offer o ) {
+		int[] offer = o.getOffer();
+		int[] desire = o.getDesire();
+		for (int i=0; i < aintInHand.length; i++) {
+			if (offer[i]>0 ||desire[i]>0 ) {
+				return false;
+			}
+		}
+		return true;
+	}
 
 	public void updateSkittlesInfo() {
 		colorsLeft=0;
@@ -477,21 +591,25 @@ public class SkittleDiddle extends Player
 	}
 
 
-	
-	public boolean isOfferEmpty( Offer o ) {
-		int[] offer = o.getOffer();
-		int[] desire = o.getDesire();
-		for (int i=0; i < aintInHand.length; i++) {
-			if (offer[i]>0 ||desire[i]>0 ) {
-				return false;
-			}
-		}
-		return true;
+	public double evaluateOffer( int offerIndex, int DesireIndex, int transactionSize) {
+		int[] offer = new int[intColorNum];
+		int[] desire = new int[intColorNum];
+		offer[offerIndex]=transactionSize;
+		desire[DesireIndex]=transactionSize;
+		return evaluateOffer(offer,desire  );
+
 	}
+
+
 	public double evaluateOffer( Offer o ) {
-		double changeInScore = 0;	
 		int[] offer = o.getOffer();
 		int[] desire = o.getDesire();
+		return evaluateOffer(offer,desire  );
+
+	}
+
+	public double evaluateOffer(int[] offer, int[] desire  ) {
+		double changeInScore = 0;	
 		for (int i=0; i < aintInHand.length; i++) {
 			if (adblTastes[i]>0) {
 				changeInScore += (adblTastes[i] * Math.pow((offer[i] + aintInHand[i]), 2)) - (adblTastes[i] * Math.pow(aintInHand[i], 2));
@@ -505,7 +623,6 @@ public class SkittleDiddle extends Player
 		return changeInScore;
 	}
 
-
 	private boolean checkEnoughInHand( int[] aintTryToUse )
 	{
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
@@ -518,12 +635,7 @@ public class SkittleDiddle extends Player
 		return true;
 	}
 
-	class offer_record
-	{
-		int[] Offer = new int[ intColorNum ];
-		int[] Desire = new int[ intColorNum ];
-		boolean executed;
-	}
+
 
 }
 /*

@@ -28,6 +28,7 @@ public class Game
 	private boolean doAllPermutations=true;
 	
 	private Double[] totalScores;
+	private double dblTasteMean;
 	private  Integer[][] factorialPermutations;
 	private Integer[][] defaultPermutations;
 	private Double[][] defaultTastes;
@@ -193,7 +194,8 @@ public class Game
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				plyNew.initialize( intPlayerNum, j, strPlayerClassArray[j], inHand.clone() );
+				plyNew.initialize( intPlayerNum,dblTasteMean, j, strPlayerClassArray[j], inHand.clone() );
+
 				alPlayers.add( plyNew );
 				PlayerStatus plsTemp = new PlayerStatus( j, strPlayerClassArray[j], inHand.clone(), taste.clone() );
 				alPlayerStatus.add( plsTemp );
