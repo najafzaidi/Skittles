@@ -154,7 +154,7 @@ public class Game
 	}
 	
 	
-	public void runGame()
+	public void runGame() throws IOException
 	{
 
 	
@@ -252,13 +252,17 @@ public class Game
 				dblAver += plsTemp.getHappiness();
 			}
 			dblAver = dblAver / intPlayerNum;
+			BufferedWriter out = new BufferedWriter(new FileWriter("Results.txt", true));
 			for ( PlayerStatus plsTemp : aplsPlayerStatus )
 			{
 				double dblTempHappy = plsTemp.getHappiness() + dblAver;
 				System.out.println( "Player #" + plsTemp.getPlayerIndex() + "'s happiness is: " + dblTempHappy );
+				out.append("Player #" + plsTemp.getPlayerIndex() + "'s happiness is: " + dblTempHappy+"\n");
 				totalScores[plsTemp.getPlayerIndex()]+=dblTempHappy;
 			}
-
+			out.append("\n\n");
+			out.close();
+			
 			try {
 				for ( int intPlayerIndex = 0; intPlayerIndex < intPlayerNum; intPlayerIndex ++ )
 				{

@@ -44,13 +44,13 @@ public class SkittleDiddle extends Player
 	int minValueTasteIndexPositive=-1;
 	int transactionSizePositive=-1;
 	double maxGainPositive=0;
-	
+
 
 	int maxValueTasteIndexNegative=-1;
 	int minValueTasteIndexNegative=-1;
 	int transactionSizeNegative=-1;
 	double maxGainNegative=0;
-	
+
 	int[] ignoreMaxColors ;
 
 
@@ -58,6 +58,7 @@ public class SkittleDiddle extends Player
 	private int intLastEatIndex;
 	private int intLastEatNum;
 	private ArrayList<int[]> netTradesPerPlayer;	// executed trade accounting (credits, debits) stored here
+	private ArrayList<int[]> lastOfferPerPlayerPerSkittle;	
 
 
 	@Override
@@ -93,8 +94,10 @@ public class SkittleDiddle extends Player
 		maxTransactionSize=Integer.MAX_VALUE;
 
 		netTradesPerPlayer = new ArrayList<int[]>(intPlayerNum);
+		lastOfferPerPlayerPerSkittle = new ArrayList<int[]>(intPlayerNum);
 		for ( int i=0; i<intPlayerNum; i++ ) {
 			netTradesPerPlayer.add(new int[intColorNum]);
+			lastOfferPerPlayerPerSkittle.add(new int[intColorNum]);
 		}
 		lastOfferMinIndex=-1;
 		lastOfferMaxIndex=-1;
@@ -214,17 +217,17 @@ public class SkittleDiddle extends Player
 		setBestPositiveOfferToOffer();
 		setBestNegativeOfferToOffer();
 		//maxValueTasteIndex=0; 
-		
+
 		double[] utilities = new double[3]; // 0:positive, 1:negative, 2:basic
 		double[] coeffs = new double[3];
 		coeffs[0] = 1;
 		coeffs[1] = 0.5;
 		coeffs[2] = round*Math.exp(-round*0.5);
-		
+
 		utilities[0] = maxGainPositive * coeffs[0];
 		utilities[1] = maxGainNegative * coeffs[1];
 		utilities[2] = maxValue * coeffs[2];
-		
+
 		// Find max
 		int max = 0;
 		int maxUtility = 0;
@@ -233,9 +236,9 @@ public class SkittleDiddle extends Player
 				max = i;
 			}
 		}
-		
+
 		if (max == 0) { // positive wins
-		
+
 			minValueTasteIndex=minValueTasteIndexPositive;
 			maxValueTasteIndex=maxValueTasteIndexPositive;
 			transactionSize=transactionSizePositive;
@@ -310,6 +313,17 @@ public class SkittleDiddle extends Player
 		}
 	}
 
+	public void updateOfferInfo(Offer offerToRecord) {
+		int playerIndex=offerToRecord.getOfferedByIndex();
+		int[] aintDesire = offerToRecord.getDesire();
+		int[] aintOffer = offerToRecord.getOffer();
+		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ ) {
+			if(aintDesire[intColorIndex]>0 ||aintOffer[intColorIndex]>0) {
+				lastOfferPerPlayerPerSkittle.get(playerIndex)[intColorIndex]=
+						aintOffer[intColorIndex];
+			}
+		}
+	}
 	@Override
 	public Offer pickOffer(Offer[] aoffCurrentOffers) 
 	{
@@ -322,6 +336,7 @@ public class SkittleDiddle extends Player
 				if(!isOfferEmpty(offTemp))
 					lastRoundWithOffer=round;
 			}
+			updateOfferInfo(offTemp);
 
 			if ( offTemp.getOfferedByIndex() == intPlayerIndex || offTemp.getOfferLive() == false )
 				continue;
@@ -364,6 +379,7 @@ public class SkittleDiddle extends Player
 		int[] aintOffer = offPicked.getOffer();
 		int[] aintDesire = offPicked.getDesire();
 		boolean real=false;
+
 		for ( int intColorIndex = 0; intColorIndex < intColorNum; intColorIndex ++ )
 		{
 			if(aintDesire[ intColorIndex ]>0)
@@ -460,7 +476,11 @@ public class SkittleDiddle extends Player
 				continue;
 			int partnersBestColor=returnBestPreferenceIndexForPlayer(p,ignoreColors) ;
 			if( partnersBestColor !=myMaxColor && aintInHand[partnersBestColor]>0) {
-				if(netTradesPerPlayer.get(p)[myMaxColor]<0) {
+				int key=netTradesPerPlayer.get(p)[myMaxColor];
+				if(key==0){
+					key=lastOfferPerPlayerPerSkittle.get(p)[myMaxColor];
+				}
+				if(key<0) {
 					int negativeTransactionSize=aintInHand[partnersBestColor];
 					double gain=evaluateOffer(myMaxColor,partnersBestColor,negativeTransactionSize);
 					if(gain>maxGain) {
@@ -505,10 +525,14 @@ public class SkittleDiddle extends Player
 				continue;
 			int partnersBestColor=returnBestPreferenceIndexForPlayer(p,ignoreColors) ;
 			if( partnersBestColor !=myMaxColor && aintInHand[partnersBestColor]>0) {
-				if(netTradesPerPlayer.get(p)[myMaxColor]>0) {
+				int key=netTradesPerPlayer.get(p)[myMaxColor];
+				if(key==0){
+					key=lastOfferPerPlayerPerSkittle.get(p)[myMaxColor];
+				}
+				if(key>0) {
 					int positiveTransactionSize=0;
 					if(aintInHand[partnersBestColor]>netTradesPerPlayer.get(p)[myMaxColor])
-						positiveTransactionSize=netTradesPerPlayer.get(p)[myMaxColor];
+						positiveTransactionSize=key;
 					else
 						positiveTransactionSize=aintInHand[partnersBestColor];
 
